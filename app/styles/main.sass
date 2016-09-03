@@ -1,4 +1,5 @@
 @import variables
+@import icons
 
 //------ default styling settings --------//
 h1, h2, h3, h4, h5
@@ -39,3 +40,46 @@ select
   appearance: none
 
 //---- & default styling settings & ------//
+
+body
+  background: url("../images/bgr.png")
+
+.ums-top-bar
+  display: inline-flex
+  align-items: center
+  height: 50px
+  background: rgba(255, 255, 255, 0.3)
+  border-bottom: solid 1px white
+  width: calc(100% - 20px)
+  padding: 0 10px
+
+.ums-groups-display
+  display: inline-block
+  height: 25px
+  line-height: 25px
+  padding: 0 30px 0 10px
+  width: 120px
+  border: solid 1px $separator_color
+
+.ums-groups-picker
+  position: absolute
+  height: 25px
+  width: 160px
+  opacity: 0
+
+.ums-create-group
+  display: inline-block
+  width: 30px
+  height: 30px
+  cursor: pointer
+  @extend .ums-groups
+  +transition(background, 200ms)
+  background-size: contain
+  margin: 0 0 0 10px
+  &:hover
+    background-size: contain
+
+@media all and (max-width: 801px)
+
+
+

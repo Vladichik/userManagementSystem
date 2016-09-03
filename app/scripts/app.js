@@ -15,6 +15,11 @@ angular
     'ngRoute',
     'ngSanitize'
   ])
+  .run(['$rootScope', function($rootScope){
+    $rootScope.lang = "en";
+    $rootScope.groups = APP_STRINGS[$rootScope.lang].groups;
+    $rootScope.appStrings = APP_STRINGS;
+  }])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {

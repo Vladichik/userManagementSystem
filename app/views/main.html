@@ -1,0 +1,7 @@
+<!------------ TOP BAR --------------->
+<div class="ums-top-bar">
+  <div class="ums-groups-display ums-arrow-d">{{selectedGroup}}</div>
+  <select class="ums-groups-picker" ng-options="group as group for group in groups track by group" ng-model="selectedGroup"></select>
+  <i class="ums-create-group" title="{{::appStrings[lang].create_group}}"></i>
+</div>
+<!---------- & TOP BAR & -------------->

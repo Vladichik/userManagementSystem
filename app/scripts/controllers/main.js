@@ -3,5 +3,5 @@
 
 angular.module('userManagementSystemApp')
 .controller('MainCtrl', ['$rootScope', '$scope', function($rootScope, $scope){
-  console.log("main is here")
+  $scope.selectedGroup = APP_STRINGS[$rootScope.lang].groups[0];
 }]);
