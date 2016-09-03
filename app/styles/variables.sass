@@ -1,0 +1,31 @@
+/****** FONT SIZES *******/
+$main_font_size: 12px
+/*************************/
+
+/****** APP COLORS *******/
+$main_font_color: #333333
+/*************************/
+
+=noUserSelect()
+  -webkit-user-select: none
+  -khtml-user-select: none
+  -moz-user-select: none
+  -o-user-select: none
+  user-select: none
+
+=ellipsis()
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
+
+=transition($attr, $time)
+  will-change: $attr
+  -webkit-transition: $attr $time ease-out
+  -moz-transition: $attr $time ease-out
+  -o-transition: $attr $time ease-out
+  transition: $attr $time ease-out
+
+=shadowGenerator($item)
+  -webkit-box-shadow: $item
+  -moz-box-shadow: $item
+  box-shadow: $item
