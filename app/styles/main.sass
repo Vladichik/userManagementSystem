@@ -1,9 +1,11 @@
 @import variables
 @import icons
+@import app_dialogs
 
 //------ default styling settings --------//
 h1, h2, h3, h4, h5
   margin: 0
+  font-weight: 100
   +ellipsis()
 
 html, body, .ums-ng-view
@@ -13,11 +15,13 @@ html, body, .ums-ng-view
   height: 100%
   font-family: Arial
   font-size: $main_font_size
+  font-weight: 100
 
 a, button
   cursor: pointer
   text-decoration: none
   color: $main_font_color
+  outline: none
 ul
   list-style: none
 
@@ -39,6 +43,47 @@ select
   -moz-appearance: none
   appearance: none
 
+input[type=text]
+  height: 25px
+  border: solid 1px $separator_color
+  width: calc(100% - 22px)
+  padding: 0 10px
+
+.ums-action-button-blue
+  padding: 5px 20px
+  color: $main_blue
+  border: solid 1px $main_blue
+  background: white
+  +transition(all, 200ms)
+
+  &:hover
+    color: white
+    background: $main_blue_hover
+    border: solid 1px $main_blue_hover
+
+  &:active
+    color: white
+    background: $main_blue_pressed
+    border: solid 1px $main_blue_pressed
+
+.ums-action-button-green
+  padding: 5px 20px
+  color: white
+  border: solid 1px $main_green
+  background: $main_green
+  +transition(background, 200ms)
+
+  &:hover
+    border: solid 1px $main_green_hover
+    background: $main_green_hover
+  &:active
+    border: solid 1px $main_green_pressed
+    background: $main_green_pressed
+
+  &:disabled
+    border: solid 1px $disabled_button
+    background: $disabled_button
+    color: $disabled_text
 //---- & default styling settings & ------//
 
 body
@@ -79,7 +124,16 @@ body
   &:hover
     background-size: contain
 
+
+
+
 @media all and (max-width: 801px)
+
+
+
+
+
+
 
 
 

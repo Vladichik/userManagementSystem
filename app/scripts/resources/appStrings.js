@@ -8,7 +8,10 @@ var APP_STRINGS = {
       "Team",
       "Family"
     ],
-    create_group: "Create new group"
+    create_group: "Create new group",
+    group_name: "Group name",
+    save: "Save",
+    close: "Close"
   }
 };
 

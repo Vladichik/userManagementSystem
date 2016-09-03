@@ -1,0 +1,10 @@
+<div>
+  <h3>{{::appStrings[lang].create_group}}</h3>
+  <form name="createNewgroupForm" ng-submit="submitForm()" novalidate>
+    <input type="text" ng-model="newGroupName" placeholder="{{::appStrings[lang].group_name}}" required>
+  </form>
+  <div class="ums-dialog-btn-cont">
+    <button class="ums-action-button-blue" ng-click="closeDialog()">{{::appStrings[lang].close}}</button>
+    <button class="ums-action-button-green" type="submit" ng-disabled="createNewgroupForm.$invalid">{{::appStrings[lang].save}}</button>
+  </div>
+</div>

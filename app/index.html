@@ -20,6 +20,13 @@
   your browser</a> to improve your experience.</p>
 <![endif]-->
 <div class="ums-ng-view" ng-view=""></div>
+<!-------------------------- APP DIALOG --------------------------->
+<div class="ums-app-dialog-screen"  ng-class="{'pop': dialogType != null}">
+  <div class="ums-dialog-content ums-type-{{dialogType}}">
+    <create-group ng-if="dialogType === 'create-group'"></create-group>
+  </div>
+</div>
+<!------------------------ & APP DIALOG & ------------------------->
 
 
 <!-- build:js(.) scripts/vendor.js -->

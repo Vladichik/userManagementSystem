@@ -1,0 +1,39 @@
+@import variables
+.ums-app-dialog-screen
+  position: absolute
+  background: rgba(0, 0, 0, 0.4)
+  width: 100%
+  height: 100%
+  top: 0
+  left: 0
+  z-index: 10
+  display: none
+  &.pop
+    display: block
+.ums-dialog-content
+  background: white
+  position: absolute
+  left: 50%
+  top: 50%
+  padding: 20px
+  +shadowGenerator(0px 0px 5px 0px rgba(0,0,0,0.49))
+
+  h3
+    font-size: $titles_font_size
+    color: $main_blue
+    line-height: 25px
+    border-bottom: solid 1px $main_blue
+    margin: 0 0 20px 0
+    +noUserSelect()
+
+  .ums-dialog-btn-cont
+    display: inline-block
+    width: calc(100% - 40px)
+    position: absolute
+    bottom: 20px
+    text-align: right
+
+  &.ums-type-create-group
+    width: 250px
+    height: 200px
+    margin: -120px 0 0 -195px
