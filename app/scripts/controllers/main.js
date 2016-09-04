@@ -18,6 +18,14 @@ angular.module('userManagementSystemApp')
       $rootScope.dialogType = "create-group";
     };
 
+    $scope.setFilterModel = function () {
+      if ($scope.selectedGroup.toLowerCase() === "all groups") {
+        $scope.groupFilter = "";
+      } else {
+        $scope.groupFilter = $scope.selectedGroup;
+      }
+    }
+
   }])
   /**
    * Directive that creates fancy scroll
@@ -39,13 +47,13 @@ angular.module('userManagementSystemApp')
    * This directive creates CREATE NEW GROUP DIALOG
    * with all functionality
    */
-  .directive('createGroup', ['$rootScope', function($rootScope){
+  .directive('createGroup', ['$rootScope', function ($rootScope) {
     return {
       replace: true,
       scope: false,
       templateUrl: "views/dialogs/create_group.html",
-      link: function(scope){
-        scope.saveGroup = function(){
+      link: function (scope) {
+        scope.saveGroup = function () {
           $rootScope.appStrings[$rootScope.lang].groups.push(scope.newGroupName);
           console.log($rootScope.appStrings);
         }

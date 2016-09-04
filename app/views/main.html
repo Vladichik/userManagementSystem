@@ -1,21 +1,37 @@
 <!------------ TOP BAR --------------->
 <div class="ums-top-bar">
   <div class="ums-groups-display ums-arrow-d">{{selectedGroup}}</div>
-  <select class="ums-groups-picker" ng-options="group as group for group in groups track by group" ng-model="selectedGroup"></select>
+  <select class="ums-groups-picker" ng-options="group as group for group in groups track by group" ng-model="selectedGroup"  ng-change="setFilterModel()"></select>
   <i class="ums-create-group" title="{{::appStrings[lang].create_group}}" ng-click="createListDialog()"></i>
 </div>
 <!---------- & TOP BAR & -------------->
 <!----------- USERS LIST -------------->
 <div class="ums-users-list-block">
   <div class="ums-users-top-bar">
-    <input type="text" placeholder="{{::appStrings[lang].srch}}" ng-mode="leads"/>
+    <input type="text" placeholder="{{::appStrings[lang].srch}}" ng-model="search"/>
     <i class="ums-create-user"></i>
   </div>
   <ul class="ums-users-list" cscroll>
-    <li ng-repeat="user in usersData">
-
+    <li ng-repeat="user in usersData | filter: search | filter: groupFilter">
+      <div class="ums-avatar-block">
+        <img src="{{::user.photo}}" />
+      </div>
+      <div class="ums-user-details-block">
+        <h4 title="{{::user.first_name}} {{::user.last_name}}">{{::user.first_name}} {{::user.last_name}}</h4>
+        <span class="ums-detail">{{::appStrings[lang].email}}{{::user.phone_number}}</span>
+        <span class="ums-detail">{{::appStrings[lang].phone}}{{::user.email}}</span>
+        <span class="ums-detail">{{::appStrings[lang].ct}}{{::user.city}}</span>
+      </div>
+      <div class="ums-user-group-block">
+        <span class="ums-group-name">{{::appStrings[lang].grp}} {{user.group}}</span>
+        <div class="ums-user-group-picker">
+          <div class="ums-groups-display ums-arrow-d">{{selectedGroup}}</div>
+          <select class="ums-groups-picker" ng-options="group as group for group in groups track by group" ng-model="userGroup"></select>
+        </div>
+      </div>
     </li>
   </ul>
 </div>
+
 <!--------- & USERS LIST & ------------>
 
