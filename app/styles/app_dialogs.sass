@@ -23,7 +23,6 @@
     color: $main_blue
     line-height: 25px
     border-bottom: solid 1px $main_blue
-    margin: 0 0 20px 0
     +noUserSelect()
 
   .ums-dialog-btn-cont
@@ -37,6 +36,26 @@
     width: 250px
     height: 200px
     margin: -120px 0 0 -145px
+
+  &.ums-type-delete-groups
+    width: 250px
+    height: 200px
+    margin: -120px 0 0 -145px
+
+.ums-dialog-body
+  display: inline-block
+  height: 100%
+  width: 100%
+
+.ums-create-group-form
+  margin: 20px 0 0 0
+
+.ums-gtd-list
+  display: inline-block
+  width: 100%
+  height: calc(100% - 65px)
+  margin: 5px 0 0 0
+  background: yellow
 
 
 @media all and (max-width: 501px)

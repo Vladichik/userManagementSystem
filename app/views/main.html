@@ -2,7 +2,8 @@
 <div class="ums-top-bar">
   <div class="ums-groups-display ums-arrow-d">{{selectedGroup}}</div>
   <select class="ums-groups-picker" ng-options="group as group for group in groups track by group" ng-model="selectedGroup"  ng-change="setFilterModel()"></select>
-  <i class="ums-create-group" title="{{::appStrings[lang].create_group}}" ng-click="createListDialog()"></i>
+  <i class="ums-create-group" title="{{::appStrings[lang].create_group}}" ng-click="createGroupDialog()"></i>
+  <i class="ums-delete-group" title="{{::appStrings[lang].del_grp}}" ng-click="deleteGroupDialog()"></i>
 </div>
 <!---------- & TOP BAR & -------------->
 <!----------- USERS LIST -------------->

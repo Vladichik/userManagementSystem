@@ -25,6 +25,7 @@
 <div class="ums-app-dialog-screen"  ng-class="{'pop': dialogType != null}">
   <div class="ums-dialog-content ums-type-{{dialogType}}">
     <create-group ng-if="dialogType === 'create-group'"></create-group>
+    <delete-groups ng-if="dialogType === 'delete-groups'"></delete-groups>
   </div>
 </div>
 <!------------------------ & APP DIALOG & ------------------------->

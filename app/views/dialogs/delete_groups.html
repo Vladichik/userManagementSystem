@@ -1,0 +1,10 @@
+<div class="ums-dialog-body">
+  <h3>{{::appStrings[lang].del_grp}}</h3>
+  <ul class="ums-gtd-list">
+    <li ng-repeat="group in groupsToDelete">a</li>
+  </ul>
+  <div class="ums-dialog-btn-cont">
+    <button class="ums-action-button-blue" ng-click="closeDialog()">{{::appStrings[lang].close}}</button>
+    <button class="ums-action-button-green" type="submit" ng-click="saveGroup()" ng-disabled="createNewgroupForm.$invalid">{{::appStrings[lang].delete}}</button>
+  </div>
+</div>

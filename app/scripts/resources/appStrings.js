@@ -12,12 +12,14 @@ var APP_STRINGS = {
     group_name: "Group name",
     save: "Save",
     close: "Close",
+    delete: "Delete",
     srch: "Search Users",
     email: "E-Mail: ",
     phone: "Phone: ",
     grp: "Current group: ",
     ct: "City: ",
-    chg_grp: "Change group:"
+    chg_grp: "Change group:",
+    del_grp: "Delete groups"
   }
 };
 

@@ -118,6 +118,17 @@ body
 
 .ums-create-group
   @extend .ums-groups
+  background-size: contain
+  &:hover
+    background-size: contain
+
+.ums-delete-group
+  @extend .ums-delete-group-icon
+  background-size: 27px
+  &:hover
+    background-size: 27px
+
+
 
 .ums-users-list-block
   border-right: solid 1px white
@@ -196,8 +207,6 @@ body
 
 
 
-
-
 .ums-users-top-bar
   height: 40px
   width: calc(100% - 20px)
@@ -211,23 +220,21 @@ body
 
 .ums-create-user
   @extend .ums-user
+  background-size: 25px
+  &:hover
+    background-size: 25px
 
 
-.ums-create-group, .ums-create-user
+.ums-create-group, .ums-create-user, .ums-delete-group
   width: 30px
   height: 30px
   display: inline-block
   cursor: pointer
   +transition(background, 200ms)
-  background-size: contain
   margin: 0 0 0 10px
-  &:hover
-    background-size: contain
 
 
 @media all and (max-width: 801px)
-
-
 
 
 

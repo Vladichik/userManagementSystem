@@ -14,10 +14,17 @@ angular.module('userManagementSystemApp')
     /**
      * Method that opens CREATE NEW GROUP dialog
      */
-    $scope.createListDialog = function () {
+    $scope.createGroupDialog = function () {
       $rootScope.dialogType = "create-group";
     };
 
+    $scope.deleteGroupDialog = function(){
+      $rootScope.dialogType = "delete-groups";
+    };
+
+    /**
+     * This method sets filter variable according to picked group
+     */
     $scope.setFilterModel = function () {
       if ($scope.selectedGroup.toLowerCase() === "all groups") {
         $scope.groupFilter = "";
@@ -54,9 +61,33 @@ angular.module('userManagementSystemApp')
       templateUrl: "views/dialogs/create_group.html",
       link: function (scope) {
         scope.saveGroup = function () {
-          $rootScope.appStrings[$rootScope.lang].groups.push(scope.newGroupName);
-          console.log($rootScope.appStrings);
+          if($rootScope.appStrings[$rootScope.lang].groups.indexOf(scope.newGroupName) <= 0) {
+            $rootScope.appStrings[$rootScope.lang].groups.push(scope.newGroupName);
+            $rootScope.closeDialog();
+          } else {
+            alert("Group with this name already exists");
+          }
         }
+      }
+    }
+  }])
+  /**
+   * This directive creates DELETE GROUPS DIALOG
+   * with all functionality
+   */
+  .directive('deleteGroups', ['$rootScope', '$filter', function ($rootScope, $filter) {
+    return {
+      replace: true,
+      scope: false,
+      templateUrl: "views/dialogs/delete_groups.html",
+      link: function (scope) {
+        scope.groupsToDelete = [];
+        angular.forEach($rootScope.groups, function(group){
+          var index = $filter("getIndex")($rootScope.usersData, "group", group);
+          if(index === null && group.toLowerCase() !== "all groups"){
+            scope.groupsToDelete.push(group);
+          }
+        });
       }
     }
   }])

@@ -17,6 +17,11 @@
   .ums-user:hover, .ums-create-user:hover {
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAilBMVEUAAACR3FqR3FmS2lqR3FqS3VqR3VuR3FqR3FqM1l6R3FqR3FqR3VqR3FqS4VuR3FqR3VmR3VmR3FqU3VeR3FqR3FqR3FqR3VqR3FmQ2lyR3FqR3VqS3VqR3FmR3FmR3FqR3FmS3VqR3FqQ3FqR3FqQ3FqR3FqR2lqS3FmR3FqR3FqO3ViR21qR3FosvGCLAAAALXRSTlMA+dAG8GDJiIAMo/S4XBDojXlOFte8luJWG7NwRDko26tpZjGukUgiv8SnHWskXii7AAADdUlEQVRYw51X2YKiMBA0nHIfgiAoh4P31P//3hLZ2SHpsLNLvaiddPXdwmYJTlrb7j3zvOzu2nXqbP4LO7NiEMAqc/ev2nr/AEdhDZckCJLLYBXgePT6v+gHLTfo94e58ND73KU2+FH9qAHoSkXITtkB0I5/VT/kAPyPpeMPH0B+WNY/RdQEdTA6LZ2aDJ75U4ymB6a+pMdAQb2ncRRArCv0B8ASS92c7f3zubfPjdgkFjBQhhhw59LXJcIfRJfX3JYLxCS0UV+Ih2EEy6oqm74JXo8MppR/Bmt2w6kAw77eJtHraBtA5cz4LbCTUP8IxU604IZCF3HJPA8Fonk/5PDm+b8CthzjFrjOa+Ehn7WHFJIGTSdVGoVS0r5bTjq7cWMEKXAbP1RKwUgmknuqRvFEN49A8PukhS9crdFuFGhRC799tJOdHhA7OPl2TvQ5EXsa6N9fHuikhC8RbEVBh8e7pEC5jqAEdu+UMWcdgcPeaa3GFK4i4Gms3jT9WoKeO58C8pLrlgg6eYUC6Vj0Qt6MwrQLG0PehgXqjQ1LktbwQhVB6KGWRBbscXIHUShQkusihnHG77isJ7jgvsmQrCdIkG08BOsJAngKghpGqCSI8EkJFCGcMKaFQt8CN0UIOfby1YHPN0EGVLJsj3zjUrETvYMlo+eSPVWNZbQVfWsjo43MZVRobz5hEHkDnKgDJSUw8MmHiT493cmIa6oB2/FhChnO5CSQXUj5VYIzWMi3Qk5LliHThX8VZXPl8KeVJsVARzoGjooIJudDvpII9kJu2Vguin4yTWPgMCWCUkFw54pTDM0aggY4fzWev4bARxR+XaY1StAKc0jTlOK7/hZaXaqjJcyYS33UC2izokkz/fKBq9hYbkieWE5zC95s1MOYAbVUVRjbOUUjVvZgoN19+ZYYgGHKOWECxa6FdxAeNxg0Z/K2AFhMd9prP6NwNLArGZ98TORVA/Ccwlmm0O9AQOuGrskB3JcfuA8ThdPxpBNcwJGRjqAU3nvrUnQAtmTtEYoBQKc+s2n2KQLj+3WBIDUAv/mbelMBRrl8fssBtr8tqvMMPIRjAjMCWHdVnOhpDiA6/xSjszX4vaf4nhOm+wKAkThUg1KcLXBEQ1ybZWnW8dCCwzoT9SU0tiW/fFv2x+a/4By3z0dhMGYU1nN7XbT9C8qNbPSBy7FUAAAAAElFTkSuQmCC") center no-repeat; }
 
+.ums-delete-group-icon, .ums-delete-group {
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAqFBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAs30iGAAAAN3RSTlMAkKj7BevF80IS99nwMBsN5r2FWEk80cp+ZgoD4N2vXC0n1bKsnndwa0a3i182KxaTT2MkH5lTpyp/QgAAAzdJREFUWMOdl+mWojAQhWMji0ArgoAoKu57q63d3/u/2YxnRtolMGHuPyqnLknlVqpKyNFMppFup0bNqov/wHhIDn1VmaLva2Abx11nMUsB572af2sDelC/nWUG5qmKf92A4eHOEOhoHaGOOdro0XIwMD+U/U9Qe7kSl1j5AA5O78X6CSNFghHaXmLe4CgSzJjKzO+gFoW6SVdqt1moSRDW0gWDNyUCCxrShSOGEkGAJ19ImCgR7NHkqdNlo5YHIM+cIVuhhAE7uV1VSUO26juTn7UtM4eS2Mhhockk94YhFBHLFPMByi9CBzJJhsRCGQZDSSqt1QnWrwGfYogKMBg85sMSrCoEHy7t+v2WNL5UfXOP9s8eRnbOp4xEI/0btcYRokYl7+b3QXRciFdh9l0zYdYSYYW6sHNxA3He5KVxKQ5TaJ8Vf//Hcd4S2Tyy8dpJT3Q8ALurEojERfMvU0ita5FtXfPwCO4uM2Dy7028wSC8Bl4Hxz/tx9bn0IZp8zfZysQbi3Js4av1pxrOyKGP/srD+xdDAssf+XdjF7T0LWjdTBcHXZLqJYLrHfoPxWUF5qQ9XzWl/plZLrjxVueGWCKLvoNTIrjWENDn3eSzO/eA9ks0TmjjEnlEEFm3A4UxuJ0qte/dQ/Prd9td2M9tTFj2bGcmk/1TysfYD6ZhWeVqozdfgpLiNR6qulXWNQXSOn5Xgnyi4p5jwExe8O3L3atZKyRYokvvtzfAzz8mJMXVsoh8cdcy2ITF9bpoLYPLTSdwKOkYihRuYuUR1Yt7luvaqvaCZV04jPJGdNArfCOZiAwJLGHk6b8umQlOeKLvv71g2xPOTzcTuNirgjxAK47BT0adY5hKr7uhsZf7n2F8p7cj6F0ZhYFfpLDBw/e3Dq7fkOgl7UklHj0rrLfQwayF/afHxOYob8e0TAgJBe4suTy99pYkuBpzWYYsYw0gNYZf3VVw6olF0tBJW5IDuE0hRSOYe9xQazARoU378jSHTcsnuSxY+vNNlE46IrCuSsX8FI+TIAtRAd8mbM7ibhbVElEJ7xEQ+bu1tevGgBNWnqdHA3J4+TxeCXu/7ZimY2wflfIL6Z9z1Uvi1ukAAAAASUVORK5CYII=") center no-repeat; }
+  .ums-delete-group-icon:hover, .ums-delete-group:hover {
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAjVBMVEUAAACH0k+R3FqS3FqR3FmQ3VqR3FqR3FqR3FqS3FqR3lqQ3FqR3VqR3VqS3lqS3VqR3FqR3FqR3FqR3VqR3FqR3FqR3FqS3FuS2VmR3FqR3FqR3VqR3FqR3VqR3FuS31+R3lqR3FqR3FqR3FmR3FqR3FuR3VqR3FqR3VqR3FmR3FqR3VqR3FqR3VqR3Frl7q6wAAAALnRSTlMABJCorS/51/FHJh31tBJD6tzQycS9XD0N7ebghVgsChd/cWhlTIt4YDeeUmyYJLcYOwAAAxxJREFUWMOdl+mSokAQhBtEQAXlFLkUr/Gc7/0fb53YGRa1YGDzhxFWa9KVndVVKBmzvRukTh7pC039B6YGNbz7YAqtMMEJ9fPkZOSANVaDsHLBK7WfXAxwboOeH4FRNQJlCscBBFdYPkeqCHut+uII+tuR2AS9E7CwNm/Rc72rX7GEixB28XsSGLhSeAz9VNBsTmLcEeISpjARF0JGvQgWMBcXdKJeBCWZvHDA6kVwwZRLZ4vbrw5g3HI6H6oX/BbH5GJcflL/ncm5xlI4EbSRsZAtNxJPsb9j1gNuhImUrUGoeiPEEEpJMPiALbhEagAi/Od62MFiCMHaJtaaWzL5VIPw+Ef8bw9Lp+brjQPk36rNdQjmagiqW6UmKYT7ZH3THTBWKhnQF84paammcd0ad6pyIZ6qXpi5fGG0UuNr4JDF+42aZDxgbrU+yduYxRdJnjy+aavHx0qH9LwOwfp9EyPwky/hU7CK42W6OBsOuNWD7G6T/cbwAZ+rv0Ia1EiX3/bIfmPYw+6f/behDWY+Kle1PhaeUOodhttUT7ppd3Cs+HqfKQlju9tw0w+PH4RHuSt3GG5lAN5oezhsrxmSLW6YHQrNAgjqeS0JwZ681nBX7xtnmEUjP+1kvg4MSX2LyPJYl5eSDzGfQgaxakVMWr2JkpPNGxJ33Tk3KKX7v9mCio4hSvMx5IZvzhq3pt5KcMcTz3fjU9RfLPbt3bKN/NQYGRyS9n7dtraGnxxmUHVMDG0Od1jUinodM8tjba+/Yac1ZokD/qZ98rTUGAELFdXlP+l4JziSKa0YveFjoyzO9XBmY95bfNyugd1oudMAXPG453BpHUqnDVvokG4liohCJtjhP1veA7uYC37JRYW14NVhm50Hjp68pDxz5Oa8raepFwpS4zB7ue0XgrgmV6lCdiFfyCPjc7svjxt12s898pWQgD1TIublNeMH+hxLJSbRy48rt3tuG5e74uoGuTVR5WP7Z7AP6uVN8KQG4OaAO1WNd1HzoAZhHABBcZ4sltuQ7x48CNoyp0a219R/4FLEvu340cezU/4AoJZiBqCyd7gAAAAASUVORK5CYII=") center no-repeat; }
+
 /****** FONT SIZES ****** */
 /************************ */
 /****** APP COLORS ****** */
@@ -47,7 +52,6 @@
     color: #1c7ed4;
     line-height: 25px;
     border-bottom: solid 1px #1c7ed4;
-    margin: 0 0 20px 0;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
@@ -63,6 +67,25 @@
     width: 250px;
     height: 200px;
     margin: -120px 0 0 -145px; }
+  .ums-dialog-content.ums-type-delete-groups {
+    width: 250px;
+    height: 200px;
+    margin: -120px 0 0 -145px; }
+
+.ums-dialog-body {
+  display: inline-block;
+  height: 100%;
+  width: 100%; }
+
+.ums-create-group-form {
+  margin: 20px 0 0 0; }
+
+.ums-gtd-list {
+  display: inline-block;
+  width: 100%;
+  height: calc(100% - 65px);
+  margin: 5px 0 0 0;
+  background: yellow; }
 
 @media all and (max-width: 501px) {
   .ums-dialog-content .ums-dialog-btn-cont button {
@@ -191,6 +214,16 @@ body {
   width: 160px;
   opacity: 0; }
 
+.ums-create-group {
+  background-size: contain; }
+  .ums-create-group:hover {
+    background-size: contain; }
+
+.ums-delete-group {
+  background-size: 27px; }
+  .ums-delete-group:hover {
+    background-size: 27px; }
+
 .ums-users-list-block {
   border-right: solid 1px white;
   width: 50%;
@@ -279,7 +312,12 @@ body {
   .ums-users-top-bar input[type=text] {
     width: 140px; }
 
-.ums-create-group, .ums-create-user {
+.ums-create-user {
+  background-size: 25px; }
+  .ums-create-user:hover {
+    background-size: 25px; }
+
+.ums-create-group, .ums-create-user, .ums-delete-group {
   width: 30px;
   height: 30px;
   display: inline-block;
@@ -289,7 +327,4 @@ body {
   -moz-transition: background 200ms ease-out;
   -o-transition: background 200ms ease-out;
   transition: background 200ms ease-out;
-  background-size: contain;
   margin: 0 0 0 10px; }
-  .ums-create-group:hover, .ums-create-user:hover {
-    background-size: contain; }
