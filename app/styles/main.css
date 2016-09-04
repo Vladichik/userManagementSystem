@@ -251,8 +251,12 @@ body {
   border-left: solid 1px #d8d8d8; }
 
 .ums-group-name {
-  line-height: 30px;
+  line-height: 25px;
   color: #608d25; }
+
+.ums-change-group {
+  display: block;
+  line-height: 25px; }
 
 .ums-user-group-picker {
   position: relative;

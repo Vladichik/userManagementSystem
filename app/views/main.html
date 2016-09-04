@@ -24,14 +24,14 @@
       </div>
       <div class="ums-user-group-block">
         <span class="ums-group-name">{{::appStrings[lang].grp}} {{user.group}}</span>
+        <span class="ums-change-group">{{::appStrings[lang].chg_grp}}</span>
         <div class="ums-user-group-picker">
-          <div class="ums-groups-display ums-arrow-d">{{selectedGroup}}</div>
-          <select class="ums-groups-picker" ng-options="group as group for group in groups track by group" ng-model="userGroup"></select>
+          <div class="ums-groups-display ums-arrow-d">{{userGroup}}</div>
+          <select class="ums-groups-picker" ng-options="group as group for group in groups track by group" ng-init="userGroup = user.group" ng-model="userGroup" change-group></select>
         </div>
       </div>
     </li>
   </ul>
 </div>
-
 <!--------- & USERS LIST & ------------>
 

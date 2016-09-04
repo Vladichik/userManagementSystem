@@ -15,8 +15,9 @@ var APP_STRINGS = {
     srch: "Search Users",
     email: "E-Mail: ",
     phone: "Phone: ",
-    grp: "Group: ",
-    ct: "City: "
+    grp: "Current group: ",
+    ct: "City: ",
+    chg_grp: "Change group:"
   }
 };
 

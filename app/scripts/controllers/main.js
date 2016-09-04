@@ -59,4 +59,19 @@ angular.module('userManagementSystemApp')
         }
       }
     }
+  }])
+  /**
+   * This directive is responsible to update userData object when user group
+   * has changed and notify scope about the change to update filtered list
+   */
+  .directive("changeGroup", ['$filter', '$rootScope', function($filter, $rootScope){
+    return function(scope, element){
+      element.on('change', function(){
+        var requiredUser = $filter("getById")($rootScope.usersData, scope.user.id);
+        if(requiredUser !== null){
+          requiredUser.group = scope.userGroup;
+        }
+        $rootScope.$apply();
+      });
+    }
   }]);

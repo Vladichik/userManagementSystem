@@ -11,7 +11,7 @@ var MOCK_USERS_DATA = [{
   "photo": "https://robohash.org/aliquidhicvoluptatem.jpg?size=100x100\u0026set=set1",
   "reg_date": "10/31/2015",
   "phone_number": "351-(899)893-0455",
-  "group": "Jabberstorm"
+  "group": "Friends"
 },
   {
     "id": 2,
@@ -24,7 +24,7 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/voluptatibusasperioresdolor.png?size=100x100\u0026set=set1",
     "reg_date": "9/21/2015",
     "phone_number": "86-(300)838-5818",
-    "group": "Browsebug"
+    "group": "Team"
   },
   {
     "id": 3,
@@ -37,7 +37,7 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/iustodoloresea.bmp?size=100x100\u0026set=set1",
     "reg_date": "1/17/2016",
     "phone_number": "389-(758)223-4191",
-    "group": "Skinte"
+    "group": "Friends"
   },
   {
     "id": 4,
@@ -50,7 +50,7 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/voluptatumperspiciatisfugiat.bmp?size=100x100\u0026set=set1",
     "reg_date": "3/14/2016",
     "phone_number": "55-(898)660-0947",
-    "group": "Thoughtmix"
+    "group": "Team"
   },
   {
     "id": 5,
@@ -63,7 +63,7 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/nondoloremnatus.png?size=100x100\u0026set=set1",
     "reg_date": "3/17/2016",
     "phone_number": "57-(460)552-6953",
-    "group": "Voonix"
+    "group": "Friends"
   },
   {
     "id": 6,
@@ -76,7 +76,7 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/liberoeaquemolestiae.png?size=100x100\u0026set=set1",
     "reg_date": "8/12/2016",
     "phone_number": "62-(195)766-0851",
-    "group": "Aivee"
+    "group": "Friends"
   },
   {
     "id": 7,
@@ -89,7 +89,7 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/etvoluptatedeleniti.png?size=100x100\u0026set=set1",
     "reg_date": "8/21/2016",
     "phone_number": "62-(690)309-6886",
-    "group": "Wordware"
+    "group": "Team"
   },
   {
     "id": 8,
@@ -102,7 +102,7 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/eanatusconsequatur.bmp?size=100x100\u0026set=set1",
     "reg_date": "6/17/2016",
     "phone_number": "93-(569)125-3503",
-    "group": "Wikizz"
+    "group": "Family"
   },
   {
     "id": 9,
@@ -115,7 +115,7 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/aliquideosvoluptates.png?size=100x100\u0026set=set1",
     "reg_date": "8/6/2016",
     "phone_number": "48-(865)402-8257",
-    "group": "Gabcube"
+    "group": "Family"
   },
   {
     "id": 10,
@@ -128,7 +128,7 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/doloreadipiscidolorem.bmp?size=100x100\u0026set=set1",
     "reg_date": "6/3/2016",
     "phone_number": "387-(341)349-8772",
-    "group": "Topiczoom"
+    "group": "Friends"
   },
   {
     "id": 11,
@@ -141,7 +141,7 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/numquamveronam.jpg?size=100x100\u0026set=set1",
     "reg_date": "3/3/2016",
     "phone_number": "48-(699)657-9554",
-    "group": "Cogidoo"
+    "group": "Friends"
   },
   {
     "id": 12,
@@ -154,7 +154,7 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/veritatisnequenon.bmp?size=100x100\u0026set=set1",
     "reg_date": "9/29/2015",
     "phone_number": "86-(444)940-8966",
-    "group": "Jetpulse"
+    "group": "Team"
   },
   {
     "id": 13,
@@ -167,7 +167,7 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/saepeestomnis.png?size=100x100\u0026set=set1",
     "reg_date": "4/16/2016",
     "phone_number": "30-(315)122-6131",
-    "group": "Ntags"
+    "group": "Friends"
   },
   {
     "id": 14,
@@ -180,7 +180,7 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/etsitesse.jpg?size=100x100\u0026set=set1",
     "reg_date": "7/30/2016",
     "phone_number": "86-(372)981-7651",
-    "group": "Mita"
+    "group": "Friends"
   },
   {
     "id": 15,
@@ -193,7 +193,7 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/magnamdelenitidolores.jpg?size=100x100\u0026set=set1",
     "reg_date": "4/10/2016",
     "phone_number": "63-(188)602-5029",
-    "group": "Twitterbridge"
+    "group": "Friends"
   },
   {
     "id": 16,
@@ -206,7 +206,7 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/illumdignissimospraesentium.bmp?size=100x100\u0026set=set1",
     "reg_date": "7/19/2016",
     "phone_number": "46-(369)976-3278",
-    "group": "Photolist"
+    "group": "Team"
   },
   {
     "id": 17,
@@ -219,7 +219,7 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/quaeratpariaturest.bmp?size=100x100\u0026set=set1",
     "reg_date": "9/19/2015",
     "phone_number": "84-(395)747-2178",
-    "group": "Roombo"
+    "group": "Team"
   },
   {
     "id": 18,
@@ -232,7 +232,7 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/utaspernaturconsequatur.png?size=100x100\u0026set=set1",
     "reg_date": "9/20/2015",
     "phone_number": "62-(402)493-1770",
-    "group": "Skilith"
+    "group": "Friends"
   },
   {
     "id": 19,
@@ -245,7 +245,7 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/harumquosnatus.jpg?size=100x100\u0026set=set1",
     "reg_date": "11/20/2015",
     "phone_number": "55-(801)839-5032",
-    "group": "Feedmix"
+    "group": "Friends"
   },
   {
     "id": 20,
@@ -258,7 +258,7 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/doloremnoneos.jpg?size=100x100\u0026set=set1",
     "reg_date": "3/24/2016",
     "phone_number": "86-(728)263-2856",
-    "group": "Myworks"
+    "group": "Team"
   },
   {
     "id": 21,
@@ -271,7 +271,7 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/molestiaevoluptatemplaceat.png?size=100x100\u0026set=set1",
     "reg_date": "8/17/2016",
     "phone_number": "62-(564)155-7014",
-    "group": "Skalith"
+    "group": "Friends"
   },
   {
     "id": 22,
@@ -284,7 +284,7 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/animisaepesoluta.bmp?size=100x100\u0026set=set1",
     "reg_date": "4/26/2016",
     "phone_number": "1-(317)629-0888",
-    "group": "Yadel"
+    "group": "Friends"
   },
   {
     "id": 23,
@@ -297,7 +297,7 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/cumqueplaceatet.jpg?size=100x100\u0026set=set1",
     "reg_date": "10/5/2015",
     "phone_number": "58-(865)622-2221",
-    "group": "Rhycero"
+    "group": "Friends"
   },
   {
     "id": 24,
@@ -310,7 +310,7 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/odititaqueipsa.jpg?size=100x100\u0026set=set1",
     "reg_date": "11/18/2015",
     "phone_number": "98-(550)415-1735",
-    "group": "Brainlounge"
+    "group": "Friends"
   },
   {
     "id": 25,
@@ -323,7 +323,7 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/autmagnireiciendis.jpg?size=100x100\u0026set=set1",
     "reg_date": "8/10/2016",
     "phone_number": "354-(525)527-6835",
-    "group": "Thoughtsphere"
+    "group": "Friends"
   },
   {
     "id": 26,
@@ -336,7 +336,7 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/necessitatibusmolestiaequi.png?size=100x100\u0026set=set1",
     "reg_date": "11/18/2015",
     "phone_number": "7-(167)788-2735",
-    "group": "Gabtype"
+    "group": "Friends"
   },
   {
     "id": 27,
@@ -349,7 +349,7 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/consequaturautvero.png?size=100x100\u0026set=set1",
     "reg_date": "8/9/2016",
     "phone_number": "49-(202)860-7857",
-    "group": "Izio"
+    "group": "Friends"
   },
   {
     "id": 28,
@@ -362,7 +362,7 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/nequeblanditiisnobis.jpg?size=100x100\u0026set=set1",
     "reg_date": "7/15/2016",
     "phone_number": "385-(768)820-7744",
-    "group": "Yodel"
+    "group": "Friends"
   },
   {
     "id": 29,
@@ -375,7 +375,7 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/debitisvoluptateullam.jpg?size=100x100\u0026set=set1",
     "reg_date": "9/1/2016",
     "phone_number": "591-(349)347-7347",
-    "group": "Youspan"
+    "group": "Friends"
   },
   {
     "id": 30,
@@ -388,5 +388,5 @@ var MOCK_USERS_DATA = [{
     "photo": "https://robohash.org/adipisciabaut.png?size=100x100\u0026set=set1",
     "reg_date": "3/29/2016",
     "phone_number": "33-(990)913-8778",
-    "group": "Eimbee"
+    "group": "Friends"
   }];
