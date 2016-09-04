@@ -24,6 +24,8 @@ a, button
   outline: none
 ul
   list-style: none
+  margin: 0
+  padding: 0
 
 input
   outline: none
@@ -89,11 +91,13 @@ input[type=text]
 body
   background: url("../images/bgr.png")
 
+.ums-top-bar, .ums-users-list-block
+  background: rgba(255, 255, 255, 0.3)
+
 .ums-top-bar
   display: inline-flex
   align-items: center
   height: 50px
-  background: rgba(255, 255, 255, 0.3)
   border-bottom: solid 1px white
   width: calc(100% - 20px)
   padding: 0 10px
@@ -113,11 +117,45 @@ body
   opacity: 0
 
 .ums-create-group
-  display: inline-block
+  @extend .ums-groups
+
+.ums-users-list-block
+  border-right: solid 1px white
+  width: 50%
+  height: calc(100% - 51px)
+  float: left
+  ul
+    overflow: hidden
+    height: calc(100% - 41px)
+
+  li
+    height: 70px
+    width: calc(100% - 30px)
+    background: white
+    padding: 5px
+    margin: 10px
+
+
+.ums-users-top-bar
+  height: 40px
+  width: calc(100% - 20px)
+  border-bottom: solid 1px white
+  display: flex
+  align-items: center
+  padding: 0 10px
+
+  input[type=text]
+    width: 140px
+
+.ums-create-user
+  @extend .ums-user
+
+
+.ums-create-group, .ums-create-user
   width: 30px
   height: 30px
+  display: inline-block
   cursor: pointer
-  @extend .ums-groups
   +transition(background, 200ms)
   background-size: contain
   margin: 0 0 0 10px
@@ -125,11 +163,7 @@ body
     background-size: contain
 
 
-
-
 @media all and (max-width: 801px)
-
-
 
 
 

@@ -20,16 +20,35 @@ angular.module('userManagementSystemApp')
 
   }])
   /**
+   * Directive that creates fancy scroll
+   */
+  .directive('cscroll', function ($rootScope) {
+    return function (scope, element, attrs) {
+      if (!$rootScope.iAmOnMobile) {
+        element.mCustomScrollbar({
+          theme: "dark",
+          moveDragger: true,
+          autoHideScrollbar: true,
+          updateOnContentResize: true,
+          scrollInertia: 500
+        });
+      }
+    };
+  })
+  /**
    * This directive creates CREATE NEW GROUP DIALOG
    * with all functionality
    */
-  .directive('createGroup', function(){
+  .directive('createGroup', ['$rootScope', function($rootScope){
     return {
       replace: true,
       scope: false,
       templateUrl: "views/dialogs/create_group.html",
       link: function(scope){
-        console.log(scope);
+        scope.saveGroup = function(){
+          $rootScope.appStrings[$rootScope.lang].groups.push(scope.newGroupName);
+          console.log($rootScope.appStrings);
+        }
       }
     }
-  });
+  }]);

@@ -11,7 +11,8 @@ var APP_STRINGS = {
     create_group: "Create new group",
     group_name: "Group name",
     save: "Save",
-    close: "Close"
+    close: "Close",
+    srch: "Search Users"
   }
 };
 

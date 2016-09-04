@@ -15,10 +15,15 @@ angular
     'ngRoute',
     'ngSanitize'
   ])
-  .run(['$rootScope', function($rootScope){
+  /**
+   * Here we run all global configurations before application starts
+   */
+  .run(['$rootScope', '$mobileDetector', function($rootScope, $mobileDetector){
     $rootScope.lang = "en";
     $rootScope.groups = APP_STRINGS[$rootScope.lang].groups;
     $rootScope.appStrings = APP_STRINGS;
+    $rootScope.usersData = MOCK_USERS_DATA;
+    $rootScope.iAmOnMobile = $mobileDetector.isMobile.any();
   }])
   .config(function ($routeProvider) {
     $routeProvider

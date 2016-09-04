@@ -5,3 +5,17 @@
   <i class="ums-create-group" title="{{::appStrings[lang].create_group}}" ng-click="createListDialog()"></i>
 </div>
 <!---------- & TOP BAR & -------------->
+<!----------- USERS LIST -------------->
+<div class="ums-users-list-block">
+  <div class="ums-users-top-bar">
+    <input type="text" placeholder="{{::appStrings[lang].srch}}" ng-mode="leads"/>
+    <i class="ums-create-user"></i>
+  </div>
+  <ul class="ums-users-list" cscroll>
+    <li ng-repeat="user in usersData">
+
+    </li>
+  </ul>
+</div>
+<!--------- & USERS LIST & ------------>
+
