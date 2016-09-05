@@ -6,6 +6,7 @@
       <label class="ums-cb-label" for="group_{{group}}">{{::group}}</label>
     </li>
   </ul>
+  <div ng-if="!groupsToDelete || groupsToDelete.length < 1" class="ums-no-groups-notice">{{::appStrings[lang].no_grp_to_del}}</div>
   <div class="ums-dialog-btn-cont">
     <button class="ums-action-button-blue" ng-click="closeDialog()">{{::appStrings[lang].close}}</button>
     <button class="ums-action-button-green" type="submit" ng-click="deleteGroups()" ng-disabled="createNewgroupForm.$invalid">{{::appStrings[lang].delete}}</button>

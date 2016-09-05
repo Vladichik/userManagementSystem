@@ -71,6 +71,10 @@
     width: 250px;
     height: 200px;
     margin: -120px 0 0 -145px; }
+  .ums-dialog-content.ums-type-create-users {
+    width: 400px;
+    height: 250px;
+    margin: -145px 0 0 -220px; }
 
 .ums-dialog-body {
   display: inline-block;
@@ -107,11 +111,106 @@
     background-position: left;
     background-size: 18px; }
 
+.ums-no-groups-notice {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  width: calc(100% - 40px);
+  font-size: 14px;
+  color: #aeadad;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none; }
+
+.ums-form-fs {
+  border: none;
+  margin: 10px 0 0 0;
+  padding: 0;
+  position: relative; }
+  .ums-form-fs input[type=text], .ums-form-fs input[type=email], .ums-form-fs input[type=tel] {
+    display: inline-block;
+    width: calc(50% - 30px);
+    float: left; }
+    .ums-form-fs input[type=text]:last-child, .ums-form-fs input[type=email]:last-child, .ums-form-fs input[type=tel]:last-child {
+      float: right; }
+
+.ums-dropdown-holder {
+  display: inline-block;
+  width: calc(50% - 5px);
+  vertical-align: top;
+  position: relative; }
+  .ums-dropdown-holder:last-child {
+    padding: 0 0 0 6px; }
+  .ums-dropdown-holder select {
+    left: 0;
+    bottom: 3px;
+    height: 27px;
+    width: calc(50% - 5px); }
+    .ums-dropdown-holder select.ums-stick-right {
+      right: 0;
+      left: auto; }
+  .ums-dropdown-holder .ums-groups-display {
+    width: calc(100% - 45px); }
+    .ums-dropdown-holder .ums-groups-display.ums-stick-right {
+      float: right; }
+
+.ums-user-picker-ttl {
+  display: inline-block;
+  line-height: 20px;
+  width: 100%;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none; }
+  .ums-user-picker-ttl:last-child {
+    padding: 0 0 0 15px; }
+
+input[type=url] {
+  margin-top: 10px; }
+
 @media all and (max-width: 501px) {
   .ums-dialog-content .ums-dialog-btn-cont button {
     width: calc(50% - 2px);
     height: 35px;
-    font-size: 1rem; } }
+    font-size: 1rem; }
+  .ums-dialog-content.ums-type-create-users {
+    left: 0;
+    top: 0;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    margin: 0; }
+    .ums-dialog-content.ums-type-create-users .ums-form-fs {
+      margin: 0; }
+      .ums-dialog-content.ums-type-create-users .ums-form-fs input[type=text], .ums-dialog-content.ums-type-create-users .ums-form-fs input[type=email], .ums-dialog-content.ums-type-create-users .ums-form-fs input[type=tel] {
+        width: calc(100% - 20px);
+        margin: 20px 0 0 0;
+        height: 40px;
+        font-size: 14px; }
+        .ums-dialog-content.ums-type-create-users .ums-form-fs input[type=text]:last-child, .ums-dialog-content.ums-type-create-users .ums-form-fs input[type=email]:last-child, .ums-dialog-content.ums-type-create-users .ums-form-fs input[type=tel]:last-child {
+          float: left; }
+    .ums-dialog-content.ums-type-create-users input[type=url] {
+      font-size: 14px;
+      height: 40px;
+      width: calc(100% - 20px);
+      margin: 20px 0 0 0; }
+    .ums-dialog-content.ums-type-create-users .ums-groups-display {
+      width: calc(100% - 40px);
+      height: 40px;
+      line-height: 40px; }
+      .ums-dialog-content.ums-type-create-users .ums-groups-display.ums-stick-right {
+        float: left; }
+    .ums-dialog-content.ums-type-create-users .ums-dropdown-holder {
+      width: 100%;
+      margin: 20px 0 0 0; }
+      .ums-dialog-content.ums-type-create-users .ums-dropdown-holder:last-child {
+        padding: 0; }
+    .ums-dialog-content.ums-type-create-users select {
+      height: 40px;
+      width: 100%;
+      bottom: 0; } }
 h1, h2, h3, h4, h5 {
   margin: 0;
   font-weight: 100;
@@ -171,7 +270,7 @@ select {
   -moz-appearance: none;
   appearance: none; }
 
-input[type=text] {
+input[type=text], input[type=email], input[type=tel], input[type=url] {
   height: 25px;
   border: solid 1px #d8d8d8;
   width: calc(100% - 22px);

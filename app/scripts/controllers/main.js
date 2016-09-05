@@ -18,8 +18,15 @@ angular.module('userManagementSystemApp')
       $rootScope.dialogType = "create-group";
     };
 
+    /**
+     * Method that opens DELETE GROUP DIALOG
+     */
     $scope.deleteGroupDialog = function(){
       $rootScope.dialogType = "delete-groups";
+    };
+
+    $scope.createUserDialog = function(){
+      $rootScope.dialogType = "create-users";
     };
 
     /**
@@ -106,6 +113,16 @@ angular.module('userManagementSystemApp')
       }
     }
   }])
+  .directive('createUser', function(){
+    return {
+      replace: true,
+      scope: false,
+      templateUrl: "views/dialogs/create_user.html",
+      link: function(){
+
+      }
+    }
+  })
   /**
    * This directive is responsible to update userData object when user group
    * has changed and notify scope about the change to update filtered list

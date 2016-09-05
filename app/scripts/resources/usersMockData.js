@@ -9,7 +9,6 @@ var MOCK_USERS_DATA = [{
   "longitude": "-9.1167",
   "latitude": "39.35",
   "photo": "https://robohash.org/aliquidhicvoluptatem.jpg?size=100x100\u0026set=set1",
-  "reg_date": "10/31/2015",
   "phone_number": "351-(899)893-0455",
   "group": "Friends"
 },
@@ -22,7 +21,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "112.77102",
     "latitude": "31.98325",
     "photo": "https://robohash.org/voluptatibusasperioresdolor.png?size=100x100\u0026set=set1",
-    "reg_date": "9/21/2015",
     "phone_number": "86-(300)838-5818",
     "group": "Team"
   },
@@ -35,7 +33,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "21.3615",
     "latitude": "41.28168",
     "photo": "https://robohash.org/iustodoloresea.bmp?size=100x100\u0026set=set1",
-    "reg_date": "1/17/2016",
     "phone_number": "389-(758)223-4191",
     "group": "Friends"
   },
@@ -48,7 +45,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "-36.09361",
     "latitude": "-9.78111",
     "photo": "https://robohash.org/voluptatumperspiciatisfugiat.bmp?size=100x100\u0026set=set1",
-    "reg_date": "3/14/2016",
     "phone_number": "55-(898)660-0947",
     "group": "Team"
   },
@@ -61,7 +57,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "-74.36378",
     "latitude": "4.33646",
     "photo": "https://robohash.org/nondoloremnatus.png?size=100x100\u0026set=set1",
-    "reg_date": "3/17/2016",
     "phone_number": "57-(460)552-6953",
     "group": "Friends"
   },
@@ -74,7 +69,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "108.5874",
     "latitude": "-7.0992",
     "photo": "https://robohash.org/liberoeaquemolestiae.png?size=100x100\u0026set=set1",
-    "reg_date": "8/12/2016",
     "phone_number": "62-(195)766-0851",
     "group": "Friends"
   },
@@ -87,7 +81,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "116.3396",
     "latitude": "-8.7068",
     "photo": "https://robohash.org/etvoluptatedeleniti.png?size=100x100\u0026set=set1",
-    "reg_date": "8/21/2016",
     "phone_number": "62-(690)309-6886",
     "group": "Team"
   },
@@ -100,7 +93,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "63.7888",
     "latitude": "30.5488",
     "photo": "https://robohash.org/eanatusconsequatur.bmp?size=100x100\u0026set=set1",
-    "reg_date": "6/17/2016",
     "phone_number": "93-(569)125-3503",
     "group": "Family"
   },
@@ -113,7 +105,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "21.39107",
     "latitude": "52.06093",
     "photo": "https://robohash.org/aliquideosvoluptates.png?size=100x100\u0026set=set1",
-    "reg_date": "8/6/2016",
     "phone_number": "48-(865)402-8257",
     "group": "Family"
   },
@@ -126,7 +117,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "18.46756",
     "latitude": "45.05986",
     "photo": "https://robohash.org/doloreadipiscidolorem.bmp?size=100x100\u0026set=set1",
-    "reg_date": "6/3/2016",
     "phone_number": "387-(341)349-8772",
     "group": "Friends"
   },
@@ -139,7 +129,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "14.82914",
     "latitude": "51.67639",
     "photo": "https://robohash.org/numquamveronam.jpg?size=100x100\u0026set=set1",
-    "reg_date": "3/3/2016",
     "phone_number": "48-(699)657-9554",
     "group": "Friends"
   },
@@ -152,7 +141,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "105.88205",
     "latitude": "33.88872",
     "photo": "https://robohash.org/veritatisnequenon.bmp?size=100x100\u0026set=set1",
-    "reg_date": "9/29/2015",
     "phone_number": "86-(444)940-8966",
     "group": "Team"
   },
@@ -165,7 +153,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "22.59279",
     "latitude": "40.82615",
     "photo": "https://robohash.org/saepeestomnis.png?size=100x100\u0026set=set1",
-    "reg_date": "4/16/2016",
     "phone_number": "30-(315)122-6131",
     "group": "Friends"
   },
@@ -178,7 +165,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "107.16538",
     "latitude": "28.09319",
     "photo": "https://robohash.org/etsitesse.jpg?size=100x100\u0026set=set1",
-    "reg_date": "7/30/2016",
     "phone_number": "86-(372)981-7651",
     "group": "Friends"
   },
@@ -191,7 +177,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "123.84702",
     "latitude": "9.63286",
     "photo": "https://robohash.org/magnamdelenitidolores.jpg?size=100x100\u0026set=set1",
-    "reg_date": "4/10/2016",
     "phone_number": "63-(188)602-5029",
     "group": "Friends"
   },
@@ -204,7 +189,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "17.6454",
     "latitude": "59.8585",
     "photo": "https://robohash.org/illumdignissimospraesentium.bmp?size=100x100\u0026set=set1",
-    "reg_date": "7/19/2016",
     "phone_number": "46-(369)976-3278",
     "group": "Team"
   },
@@ -217,7 +201,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "109.22069",
     "latitude": "12.69203",
     "photo": "https://robohash.org/quaeratpariaturest.bmp?size=100x100\u0026set=set1",
-    "reg_date": "9/19/2015",
     "phone_number": "84-(395)747-2178",
     "group": "Team"
   },
@@ -230,7 +213,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "140.1495",
     "latitude": "-2.5791",
     "photo": "https://robohash.org/utaspernaturconsequatur.png?size=100x100\u0026set=set1",
-    "reg_date": "9/20/2015",
     "phone_number": "62-(402)493-1770",
     "group": "Friends"
   },
@@ -243,7 +225,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "-42.02944",
     "latitude": "-20.73306",
     "photo": "https://robohash.org/harumquosnatus.jpg?size=100x100\u0026set=set1",
-    "reg_date": "11/20/2015",
     "phone_number": "55-(801)839-5032",
     "group": "Friends"
   },
@@ -256,7 +237,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "118.13218",
     "latitude": "25.80551",
     "photo": "https://robohash.org/doloremnoneos.jpg?size=100x100\u0026set=set1",
-    "reg_date": "3/24/2016",
     "phone_number": "86-(728)263-2856",
     "group": "Team"
   },
@@ -269,7 +249,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "124.1397",
     "latitude": "-9.6976",
     "photo": "https://robohash.org/molestiaevoluptatemplaceat.png?size=100x100\u0026set=set1",
-    "reg_date": "8/17/2016",
     "phone_number": "62-(564)155-7014",
     "group": "Friends"
   },
@@ -282,7 +261,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "-86.272",
     "latitude": "39.849",
     "photo": "https://robohash.org/animisaepesoluta.bmp?size=100x100\u0026set=set1",
-    "reg_date": "4/26/2016",
     "phone_number": "1-(317)629-0888",
     "group": "Friends"
   },
@@ -295,7 +273,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "-69.94754",
     "latitude": "9.43365",
     "photo": "https://robohash.org/cumqueplaceatet.jpg?size=100x100\u0026set=set1",
-    "reg_date": "10/5/2015",
     "phone_number": "58-(865)622-2221",
     "group": "Friends"
   },
@@ -308,7 +285,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "52.69701",
     "latitude": "30.89885",
     "photo": "https://robohash.org/odititaqueipsa.jpg?size=100x100\u0026set=set1",
-    "reg_date": "11/18/2015",
     "phone_number": "98-(550)415-1735",
     "group": "Friends"
   },
@@ -321,7 +297,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "-13.68368",
     "latitude": "65.14819",
     "photo": "https://robohash.org/autmagnireiciendis.jpg?size=100x100\u0026set=set1",
-    "reg_date": "8/10/2016",
     "phone_number": "354-(525)527-6835",
     "group": "Friends"
   },
@@ -334,7 +309,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "59.6497",
     "latitude": "57.6614",
     "photo": "https://robohash.org/necessitatibusmolestiaequi.png?size=100x100\u0026set=set1",
-    "reg_date": "11/18/2015",
     "phone_number": "7-(167)788-2735",
     "group": "Friends"
   },
@@ -347,7 +321,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "6.8982",
     "latitude": "51.4421",
     "photo": "https://robohash.org/consequaturautvero.png?size=100x100\u0026set=set1",
-    "reg_date": "8/9/2016",
     "phone_number": "49-(202)860-7857",
     "group": "Friends"
   },
@@ -360,7 +333,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "16.2",
     "latitude": "44.04389",
     "photo": "https://robohash.org/nequeblanditiisnobis.jpg?size=100x100\u0026set=set1",
-    "reg_date": "7/15/2016",
     "phone_number": "385-(768)820-7744",
     "group": "Friends"
   },
@@ -373,7 +345,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "-65.52861",
     "latitude": "-19.00556",
     "photo": "https://robohash.org/debitisvoluptateullam.jpg?size=100x100\u0026set=set1",
-    "reg_date": "9/1/2016",
     "phone_number": "591-(349)347-7347",
     "group": "Friends"
   },
@@ -386,7 +357,6 @@ var MOCK_USERS_DATA = [{
     "longitude": "3.219",
     "latitude": "43.3476",
     "photo": "https://robohash.org/adipisciabaut.png?size=100x100\u0026set=set1",
-    "reg_date": "3/29/2016",
     "phone_number": "33-(990)913-8778",
     "group": "Friends"
   }];

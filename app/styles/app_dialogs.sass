@@ -42,6 +42,11 @@
     height: 200px
     margin: -120px 0 0 -145px
 
+  &.ums-type-create-users
+    width: 400px
+    height: 250px
+    margin: -145px 0 0 -220px
+
 .ums-dialog-body
   display: inline-block
   height: 100%
@@ -69,6 +74,63 @@
     background-position: left
     background-size: 18px
 
+.ums-no-groups-notice
+  position: absolute
+  top: 50%
+  text-align: center
+  width: calc(100% - 40px)
+  font-size: $titles_font_size
+  color: $disabled_text
+  +noUserSelect()
+
+
+.ums-form-fs
+  border: none
+  margin: 10px 0 0 0
+  padding: 0
+  position: relative
+  input[type=text], input[type=email], input[type=tel]
+    display: inline-block
+    width: calc(50% - 30px)
+    float: left
+    &:last-child
+      float: right
+
+
+
+.ums-dropdown-holder
+  display: inline-block
+  width: calc(50% - 5px)
+  vertical-align: top
+  position: relative
+  &:last-child
+    padding: 0 0 0 6px
+  select
+    left: 0
+    bottom: 3px
+    height: 27px
+    width: calc(50% - 5px)
+    &.ums-stick-right
+      right: 0
+      left: auto
+
+  .ums-groups-display
+    width: calc(100% - 45px)
+    &.ums-stick-right
+      float: right
+
+.ums-user-picker-ttl
+  display: inline-block
+  line-height: 20px
+  width: 100%
+  +noUserSelect()
+  &:last-child
+    padding: 0 0 0 15px
+
+
+input[type=url]
+  margin-top: 10px
+
 
 
 @media all and (max-width: 501px)
@@ -77,3 +139,44 @@
       width: calc(50% - 2px)
       height: 35px
       font-size: 1rem
+
+    &.ums-type-create-users
+      left: 0
+      top: 0
+      width: calc(100% - 40px)
+      height: calc(100% - 40px)
+      margin: 0
+      .ums-form-fs
+        margin: 0
+        input[type=text], input[type=email], input[type=tel]
+          width: calc(100% - 20px)
+          margin: 20px 0 0 0
+          height: 40px
+          font-size: $titles_font_size
+          &:last-child
+            float: left
+
+      input[type=url]
+        font-size: $titles_font_size
+        height: 40px
+        width: calc(100% - 20px)
+        margin: 20px 0 0 0
+
+      .ums-groups-display
+        width: calc(100% - 40px)
+        height: 40px
+        line-height: 40px
+        &.ums-stick-right
+          float: left
+
+      .ums-dropdown-holder
+        width: 100%
+        margin: 20px 0 0 0
+        &:last-child
+          padding: 0
+
+      select
+        height: 40px
+        width: 100%
+        bottom: 0
+
