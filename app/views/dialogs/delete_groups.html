@@ -1,10 +1,13 @@
 <div class="ums-dialog-body">
   <h3>{{::appStrings[lang].del_grp}}</h3>
   <ul class="ums-gtd-list">
-    <li ng-repeat="group in groupsToDelete">a</li>
+    <li ng-repeat="group in groupsToDelete">
+      <input type="checkbox" id="group_{{group}}" class="cl-checkbox" ng-model="$parent.dg[group]">
+      <label class="ums-cb-label" for="group_{{group}}">{{::group}}</label>
+    </li>
   </ul>
   <div class="ums-dialog-btn-cont">
     <button class="ums-action-button-blue" ng-click="closeDialog()">{{::appStrings[lang].close}}</button>
-    <button class="ums-action-button-green" type="submit" ng-click="saveGroup()" ng-disabled="createNewgroupForm.$invalid">{{::appStrings[lang].delete}}</button>
+    <button class="ums-action-button-green" type="submit" ng-click="deleteGroups()" ng-disabled="createNewgroupForm.$invalid">{{::appStrings[lang].delete}}</button>
   </div>
 </div>

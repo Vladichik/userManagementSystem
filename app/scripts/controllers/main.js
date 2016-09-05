@@ -88,6 +88,21 @@ angular.module('userManagementSystemApp')
             scope.groupsToDelete.push(group);
           }
         });
+
+        scope.deleteGroups = function(){
+          angular.forEach(scope.dg, function(key){
+            $rootScope.appStrings[$rootScope.lang].groups.splice($rootScope.appStrings[$rootScope.lang].groups.indexOf(key), 1);
+          });
+
+          $rootScope.$$childHead.selectedGroup = APP_STRINGS[$rootScope.lang].groups[0];
+          $rootScope.$$childHead.groupFilter = $rootScope.$$childHead.selectedGroup;
+          if ($rootScope.$$childHead.selectedGroup.toLowerCase() === "all groups") {
+            $rootScope.$$childHead.groupFilter = "";
+          } else {
+            $rootScope.$$childHead.groupFilter = $rootScope.$$childHead.selectedGroup;
+          }
+          $rootScope.closeDialog();
+        }
       }
     }
   }])

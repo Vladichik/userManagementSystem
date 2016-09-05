@@ -30,6 +30,7 @@ ul
 input
   outline: none
 
+
 input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder
   color: transparent
 input:focus:-moz-placeholder, textarea:focus:-moz-placeholder
@@ -38,6 +39,20 @@ input:focus::-moz-placeholder, textarea:focus::-moz-placeholder
   color: transparent
 input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder
   color: transparent
+
+input[type=checkbox]
+  display: none
+
+.ums-cb-label
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADkAAAA5BAMAAAB+Np62AAAAG1BMVEUAAABVVlVVVlVWV1VVVlRWV1RcXFxYWFhVVlRCfhUGAAAACHRSTlMA9cm+dWcZGm+qY78AAABfSURBVDjL7dWhDYBAEETRnwCHRSJBkNABWAwaSTl3gZApmwZut4L99vkZ6GZVKwvQ77LaoJHZA3c5qZYOXawvRq0mxs/SpAFlrJRDQ0NDQ331N9bfZ3/b/V/wP8X/ox9OD7eViLV3xwAAAABJRU5ErkJggg==') center no-repeat
+  background-size: contain
+
+input[type=checkbox]:checked + .ums-cb-label
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADkAAAA5CAMAAAC7xnO3AAAAaVBMVEUAAABVVlVaWlozMzNVVlVWV1VVVlRWV1Q5OTkzMzM0NDQ2NjYzMzMzMzM0NDRDQ0MzMzM1NTU1NTUzMzM0NDQzMzMzMzM0NDQ0NDQ9PT00NDQ0NDQ0NDQ0NDQ0NDQzMzM0NDRVVlQzMzMEV1ddAAAAIXRSTlMA9RnTyb51Zw+5JBvu3z8J9lIy5crDoGNaFa2JgHZsSpP8tJd7AAABNklEQVRIx+3X2a6CMBAG4N+K7CKLCLi37/+QZ04c0piGhmm88ML/Cko+GJaWFpQk2mhJNlGC/6idlmenSDKUUiqVrh4rSKJiursEkdYxpIm1jkBciaWiQkE1Qx5SP/lRWWVpmHzU5piGyMZQtpNcjoZCtJDKwbyyz4XyPsMCMnkztlaRvM5wgkxeGNI7kcknw56gSJ4YZgcsyXYddGVjznBzZmiPOXK057U5ZAxPWJSDLckHXVnZ52eT9tz6xIJ03hnDI7dd4JPudzJtueUKn3S/zWKGN/ik2x+KPe/d4ZNuH8xnOMAjnX5vuqbjrXHt2NeY9zRYJXl8s6kfkvG2qi2sIJBES4ZlJR3j2/IFWwglU4JyibwzXQ6hZNrn3/IX/Mnvl8FzzfD5bficOnweH752CF+v/AFYZnXnopstagAAAABJRU5ErkJggg==') center no-repeat
+  background-size: contain
+
+
+
 
 select
   cursor: pointer
@@ -235,8 +250,4 @@ body
 
 
 @media all and (max-width: 801px)
-
-
-
-
 

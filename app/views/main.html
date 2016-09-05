@@ -19,8 +19,8 @@
       </div>
       <div class="ums-user-details-block">
         <h4 title="{{::user.first_name}} {{::user.last_name}}">{{::user.first_name}} {{::user.last_name}}</h4>
-        <span class="ums-detail">{{::appStrings[lang].email}}{{::user.phone_number}}</span>
-        <span class="ums-detail">{{::appStrings[lang].phone}}{{::user.email}}</span>
+        <span class="ums-detail">{{::appStrings[lang].phone}}{{::user.phone_number}}</span>
+        <span class="ums-detail">{{::appStrings[lang].email}}{{::user.email}}</span>
         <span class="ums-detail">{{::appStrings[lang].ct}}{{::user.city}}</span>
       </div>
       <div class="ums-user-group-block">
@@ -28,7 +28,9 @@
         <span class="ums-change-group">{{::appStrings[lang].chg_grp}}</span>
         <div class="ums-user-group-picker">
           <div class="ums-groups-display ums-arrow-d">{{userGroup}}</div>
-          <select class="ums-groups-picker" ng-options="group as group for group in groups track by group" ng-init="userGroup = user.group" ng-model="userGroup" change-group></select>
+          <select class="ums-groups-picker" ng-init="userGroup = user.group" ng-model="userGroup" change-group>
+            <option ng-repeat="group in groups" ng-hide="$index === 0">{{::group}}</option>
+          </select>
         </div>
       </div>
     </li>
