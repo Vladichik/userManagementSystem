@@ -1,21 +1,21 @@
 <div class="ums-dialog-body">
   <h3>{{::appStrings[lang].cr_user}}</h3>
-  <form>
+  <form name="createUserForm" ng-submit="createNewUser()" novalidate>
     <fieldset class="ums-form-fs">
-      <input type="text" ng-model="user.first_name" placeholder="{{::appStrings[lang].f_n}}"/>
-      <input type="text" ng-model="user.last_name" placeholder="{{::appStrings[lang].l_n}}"/>
+      <input type="text" ng-model="user.first_name" placeholder="{{::appStrings[lang].f_n}}" required/>
+      <input type="text" ng-model="user.last_name" placeholder="{{::appStrings[lang].l_n}}" required/>
     </fieldset>
     <fieldset class="ums-form-fs">
-      <input type="email" ng-model="user.email" placeholder="{{::appStrings[lang].e_m}}"/>
-      <input type="tel" ng-model="user.phone_number" placeholder="{{::appStrings[lang].f_n}}"/>
+      <input type="email" ng-model="user.email" placeholder="{{::appStrings[lang].e_m}}" required/>
+      <input type="tel" ng-model="user.phone_number" placeholder="{{::appStrings[lang].p_n}}" required/>
     </fieldset>
     <input type="url" ng-model="user.photo" placeholder="{{::appStrings[lang].u_p}}" />
-    <fieldset class="ums-form-fs">
 
+    <fieldset class="ums-form-fs">
       <div class="ums-dropdown-holder">
         <h5 class="ums-user-picker-ttl">{{::appStrings[lang].p_g}}</h5>
         <div class="ums-groups-display ums-arrow-d">{{newUserGroup}}</div>
-        <select class="ums-groups-picker" ng-model="newUserGroup" change-group>
+        <select class="ums-groups-picker" ng-model="newUserGroup" change-group required>
           <option ng-repeat="group in groups" ng-hide="$index === 0">{{::group}}</option>
         </select>
       </div>
@@ -28,9 +28,10 @@
         </select>
       </div>
     </fieldset>
+    <div class="ums-dialog-btn-cont">
+      <button class="ums-action-button-blue" ng-click="closeDialog()">{{::appStrings[lang].close}}</button>
+      <button class="ums-action-button-green" type="submit" ng-click="deleteGroups()" ng-disabled="createUserForm.$invalid">{{::appStrings[lang].delete}}</button>
+    </div>
   </form>
-  <div class="ums-dialog-btn-cont">
-    <button class="ums-action-button-blue" ng-click="closeDialog()">{{::appStrings[lang].close}}</button>
-    <button class="ums-action-button-green" type="submit" ng-click="deleteGroups()" ng-disabled="createNewgroupForm.$invalid">{{::appStrings[lang].delete}}</button>
-  </div>
+
 </div>

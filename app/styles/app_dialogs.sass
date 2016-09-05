@@ -107,12 +107,13 @@
     padding: 0 0 0 6px
   select
     left: 0
-    bottom: 3px
     height: 27px
-    width: calc(50% - 5px)
+    width: 100%
+    bottom: 0
     &.ums-stick-right
       right: 0
       left: auto
+
 
   .ums-groups-display
     width: calc(100% - 45px)
@@ -162,10 +163,14 @@ input[type=url]
         width: calc(100% - 20px)
         margin: 20px 0 0 0
 
+      .ums-user-picker-ttl
+        font-size: $titles_font_size
+
       .ums-groups-display
         width: calc(100% - 40px)
         height: 40px
         line-height: 40px
+        font-size: $titles_font_size
         &.ums-stick-right
           float: left
 

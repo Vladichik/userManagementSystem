@@ -145,9 +145,9 @@
     padding: 0 0 0 6px; }
   .ums-dropdown-holder select {
     left: 0;
-    bottom: 3px;
     height: 27px;
-    width: calc(50% - 5px); }
+    width: 100%;
+    bottom: 0; }
     .ums-dropdown-holder select.ums-stick-right {
       right: 0;
       left: auto; }
@@ -196,10 +196,13 @@ input[type=url] {
       height: 40px;
       width: calc(100% - 20px);
       margin: 20px 0 0 0; }
+    .ums-dialog-content.ums-type-create-users .ums-user-picker-ttl {
+      font-size: 14px; }
     .ums-dialog-content.ums-type-create-users .ums-groups-display {
       width: calc(100% - 40px);
       height: 40px;
-      line-height: 40px; }
+      line-height: 40px;
+      font-size: 14px; }
       .ums-dialog-content.ums-type-create-users .ums-groups-display.ums-stick-right {
         float: left; }
     .ums-dialog-content.ums-type-create-users .ums-dropdown-holder {

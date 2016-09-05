@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9d1ea2f-9ea7-4ab2-bdbd-31b6644fe53d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/dialogs/create_user.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/main.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/resources/appStrings.js" afterPath="$PROJECT_DIR$/app/scripts/resources/appStrings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/resources/usersMockData.js" afterPath="$PROJECT_DIR$/app/scripts/resources/usersMockData.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/app_dialogs.sass" afterPath="$PROJECT_DIR$/app/styles/app_dialogs.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css" afterPath="$PROJECT_DIR$/app/styles/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.sass" afterPath="$PROJECT_DIR$/app/styles/main.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dialogs/delete_groups.html" afterPath="$PROJECT_DIR$/app/views/dialogs/delete_groups.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="$PROJECT_DIR$/app/views/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dialogs/create_user.html" afterPath="$PROJECT_DIR$/app/views/dialogs/create_user.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/copy/styles/timestamp" afterPath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/copy/styles/timestamp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jshint/all/timestamp" afterPath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jshint/all/timestamp" />
     </list>
     <ignored path="userManagementSystem.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,8 +53,8 @@
       <file leaf-file-name="create_user.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/dialogs/create_user.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            <state relative-caret-position="150">
+              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -80,8 +73,8 @@
       <file leaf-file-name="app_dialogs.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/app_dialogs.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="160" column="20" selection-start-line="160" selection-start-column="20" selection-end-line="160" selection-end-column="20" />
+            <state relative-caret-position="459">
+              <caret line="111" column="13" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -91,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/app/styles/main.sass">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="67">
-              <caret line="197" column="21" selection-start-line="197" selection-start-column="21" selection-end-line="197" selection-end-column="21" />
+              <caret line="197" column="23" selection-start-line="197" selection-start-column="23" selection-end-line="197" selection-end-column="23" />
               <folding>
                 <element signature="e#1327#2064#1" expanded="true" />
               </folding>
@@ -161,8 +154,8 @@
         <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
         <option value="$PROJECT_DIR$/app/scripts/resources/usersMockData.js" />
         <option value="$PROJECT_DIR$/app/scripts/resources/appStrings.js" />
-        <option value="$PROJECT_DIR$/app/styles/app_dialogs.sass" />
         <option value="$PROJECT_DIR$/app/views/dialogs/create_user.html" />
+        <option value="$PROJECT_DIR$/app/styles/app_dialogs.sass" />
         <option value="$PROJECT_DIR$/app/styles/main.sass" />
       </list>
     </option>
@@ -479,7 +472,7 @@
       <workItem from="1472904192767" duration="13212000" />
       <workItem from="1472996111598" duration="4273000" />
       <workItem from="1473000407827" duration="17195000" />
-      <workItem from="1473101771946" duration="7045000" />
+      <workItem from="1473101771946" duration="7856000" />
     </task>
     <task id="LOCAL-00001" summary="First Boiler plate integration">
       <created>1472904495710</created>
@@ -544,11 +537,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473059429861</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Implementing create user dialog">
+      <created>1473108863879</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1473108863879</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41725000" />
+    <option name="totallyTimeSpent" value="42536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-267" y="-1057" width="1902" height="1057" extended-state="0" />
@@ -595,7 +595,8 @@
     <MESSAGE value="Implementing change user group" />
     <MESSAGE value="creating delete groups dialog" />
     <MESSAGE value="Improving user groups picker&#10;finishing delete group dialog" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improving user groups picker&#10;finishing delete group dialog" />
+    <MESSAGE value="Implementing create user dialog" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing create user dialog" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -944,22 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/resources/appStrings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="7" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/dialogs/create_user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -976,10 +961,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/dialogs/create_user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/resources/appStrings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="7" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/app_dialogs.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="160" column="20" selection-start-line="160" selection-start-column="20" selection-end-line="160" selection-end-column="20" />
+        <state relative-caret-position="459">
+          <caret line="111" column="13" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -987,7 +988,7 @@
     <entry file="file://$PROJECT_DIR$/app/styles/main.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67">
-          <caret line="197" column="21" selection-start-line="197" selection-start-column="21" selection-end-line="197" selection-end-column="21" />
+          <caret line="197" column="23" selection-start-line="197" selection-start-column="23" selection-end-line="197" selection-end-column="23" />
           <folding>
             <element signature="e#1327#2064#1" expanded="true" />
           </folding>
