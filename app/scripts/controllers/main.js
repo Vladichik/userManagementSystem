@@ -1,7 +1,7 @@
 "use strict";
 
 angular.module('userManagementSystemApp')
-  .controller('MainCtrl', ['$rootScope', '$scope', function ($rootScope, $scope) {
+  .controller('MainCtrl', ['$rootScope', '$scope', 'NgMap', function ($rootScope, $scope, NgMap) {
     $scope.selectedGroup = APP_STRINGS[$rootScope.lang].groups[0];
 
     /**
@@ -38,7 +38,7 @@ angular.module('userManagementSystemApp')
       } else {
         $scope.groupFilter = $scope.selectedGroup;
       }
-    }
+    };
 
   }])
   /**
@@ -113,16 +113,42 @@ angular.module('userManagementSystemApp')
       }
     }
   }])
-  .directive('createUser', function(){
+  .directive('createUser', ['$rootScope', '$filter', function($rootScope, $filter){
     return {
       replace: true,
       scope: false,
       templateUrl: "views/dialogs/create_user.html",
-      link: function(){
+      link: function(scope){
+        //----- this part generates list of available cities from users list -----//
+        scope.cities = [];
+        angular.forEach($rootScope.usersData, function (user) {
+          if(scope.cities.indexOf(user.city) < 0){
+            scope.cities.push(user.city);
+          }
+        });
+        //------------------------------------------------------------------------//
 
+        /**
+         * This method creates new user
+         */
+        scope.createNewUser = function(){
+          var reqIndex = $filter("getIndex")($rootScope.usersData, "city", scope.user.city);
+          if(reqIndex !== null){
+            var reqLat = $rootScope.usersData[reqIndex].latitude;
+            var reqLng = $rootScope.usersData[reqIndex].longitude;
+            if(reqLat && reqLng){
+              scope.user.latitude = reqLat;
+              scope.user.longitude = reqLng;
+              scope.user.id = Math.floor(Math.random() * 90 + 100); //generating random id
+              //$rootScope.usersData.push(scope.user);
+              $rootScope.usersData.splice(0, 0, scope.user);
+              $rootScope.closeDialog();
+            }
+          }
+        }
       }
     }
-  })
+  }])
   /**
    * This directive is responsible to update userData object when user group
    * has changed and notify scope about the change to update filtered list

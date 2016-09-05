@@ -13,7 +13,8 @@ angular
     'ngAnimate',
     'ngResource',
     'ngRoute',
-    'ngSanitize'
+    'ngSanitize',
+    'ngMap'
   ])
   /**
    * Here we run all global configurations before application starts
@@ -26,6 +27,7 @@ angular
     $rootScope.iAmOnMobile = $mobileDetector.isMobile.any();
   }])
   .config(function ($routeProvider) {
+
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',

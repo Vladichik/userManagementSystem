@@ -1,13 +1,360 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9d1ea2f-9ea7-4ab2-bdbd-31b6644fe53d" name="Default" comment="">
+    <list default="true" id="c9d1ea2f-9ea7-4ab2-bdbd-31b6644fe53d" name="Default" comment="Improving create user dialog">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/fonts/OpenSans-Bold-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/fonts/OpenSans-Bold-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/fonts/OpenSans-BoldItalic-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/fonts/OpenSans-BoldItalic-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/fonts/OpenSans-Italic-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/fonts/OpenSans-Italic-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/fonts/OpenSans-Light-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/fonts/OpenSans-Light-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/fonts/OpenSans-LightItalic-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/fonts/OpenSans-LightItalic-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/fonts/OpenSans-Regular-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/fonts/OpenSans-Regular-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/images/beachflag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/images/spinner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/.nvmrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/CONTRIBUTORS.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/ISSUE_TEMPLATE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/Attr2MapOptions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/GeoCoder.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/NavigatorGeolocation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/NgMap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/NgMapPool.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/StreetView.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/bicycling-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/css/custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/css/jsdoc-default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/css/prettify-tomorrow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/css/prettify.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/custom-control.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/directions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/drawing-manager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/dynamic-maps-engine-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/fonts/OpenSans-Bold-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/fonts/OpenSans-BoldItalic-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/fonts/OpenSans-Italic-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/fonts/OpenSans-Light-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/fonts/OpenSans-LightItalic-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/fonts/OpenSans-Regular-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/fusion-tables-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/heatmap-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/info-window.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/js/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/js/prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/kml-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/map-data.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/map-lazy-load.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/map-type.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/maps-engine-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/marker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/ngMap.ng-map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/ngmap.custom-marker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/overlay-map-type.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/places-auto-complete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/shape.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/source/Attr2MapOptions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/source/GeoCoder.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/source/NavigatorGeolocation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/source/NgMap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/source/NgMapPool.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/source/StreetView.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/source/bicycling-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/source/custom-control.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/source/directions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/source/drawing-manager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/source/dynamic-maps-engine-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/source/fusion-tables-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/source/heatmap-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/source/info-window.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/source/kml-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/source/map-data.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/source/map-lazy-load.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/source/map-type.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/source/maps-engine-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/source/marker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/source/ngMap.ng-map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/source/ngmap.custom-marker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/source/overlay-map-type.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/source/places-auto-complete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/source/shape.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/source/streetview-panorama.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/source/traffic-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/source/transit-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/streetview-panorama.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/traffic-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/docs/transit-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/scripts/ng-map.debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/scripts/ng-map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/build/scripts/ng-map.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/config/jsdoc/plugins/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/config/jsdoc/template/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/config/jsdoc/template/publish.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/config/jsdoc/template/static/scripts/linenumber.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/config/jsdoc/template/static/scripts/prettify/Apache-License-2.0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/config/jsdoc/template/static/scripts/prettify/lang-css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/config/jsdoc/template/static/scripts/prettify/prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/config/jsdoc/template/static/styles/jsdoc-default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/config/jsdoc/template/static/styles/prettify-jsdoc.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/config/jsdoc/template/static/styles/prettify-tomorrow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/config/jsdoc/template/tmpl/container.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/config/jsdoc/template/tmpl/details.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/config/jsdoc/template/tmpl/example.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/config/jsdoc/template/tmpl/examples.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/config/jsdoc/template/tmpl/exceptions.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/config/jsdoc/template/tmpl/layout.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/config/jsdoc/template/tmpl/mainpage.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/config/jsdoc/template/tmpl/members.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/config/jsdoc/template/tmpl/method.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/config/jsdoc/template/tmpl/params.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/config/jsdoc/template/tmpl/properties.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/config/jsdoc/template/tmpl/returns.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/config/jsdoc/template/tmpl/source.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/config/jsdoc/template/tmpl/tutorial.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/config/jsdoc/template/tmpl/type.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/config/karma.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/config/protractor.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/contributors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/controllers/map-controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/directives/bicycling-layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/directives/custom-control.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/directives/custom-marker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/directives/directions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/directives/drawing-manager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/directives/dynamic-maps-engine-layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/directives/fusion-tables-layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/directives/heatmap-layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/directives/info-window.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/directives/kml-layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/directives/map-data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/directives/map-lazy-load.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/directives/map-type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/directives/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/directives/maps-engine-layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/directives/marker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/directives/overlay-map-type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/directives/places-auto-complete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/directives/shape.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/directives/street-view-panorama.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/directives/traffic-layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/directives/transit-layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/filters/camel-case.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/filters/jsonize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/package.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/road-trip.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/services/attr2-map-options.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/services/geo-coder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/services/navigator-geolocation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/services/ng-map-pool.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/services/ng-map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/services/street-view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/spec/TODO" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/spec/directives/map_controller_spec_back.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/spec/directives/map_spec_bak.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/spec/directives/marker_spec_bak.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/spec/directives/shape_spec_bak.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/spec/directives/street_view_panorama_spec_bak.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/spec/e2e/testapp_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/spec/lib/angular-mocks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/spec/lib/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/spec/lib/markerclusterer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/spec/services/attr2_options_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/spec/services/geo_coder_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/spec/services/navigator_geolocation_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/spec/services/ng-map-pool-spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/spec/services/street_view_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/USGSOverlay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/aerial-rotate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/aerial-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/all-examples.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/all-examples.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/circle-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/control-custom-state.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/control-custom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/control-disableUI.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/control-options.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/control-positioning.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/control-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/custom-control.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/custom-marker-2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/custom-marker-clusterer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/custom-marker-custom-style.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/custom-marker-ng-repeat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/custom-marker-two-way-binding.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/custom-marker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/custom-marker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/directions-with-current-location.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/directions-with-custom-marker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/directions-with-ng-repeat-panels.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/directions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/directions2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/drawing-manager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/event-arguments.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/event-domlistener.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/event-properties.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/event-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/geojson.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/groundoverlay-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/heatmap.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/icon-complex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/icon-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/infowindow-simple-max.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/infowindow-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/infowindow-template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/infowindow_compile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/infowindow_geolookup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/infowindow_ng_click.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/layer-bicycling.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/layer-data-dynamic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/layer-data-quakes-advanced.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/layer-data-quakes-default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/layer-data-quakes-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/layer-data-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/layer-data-style.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/layer-dynamicmapsengine.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/layer-fusiontables-heatmap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/layer-fusiontables-query.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/layer-fusiontables-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/layer-fusiontables-styling.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/layer-georss.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/layer-heatmap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/layer-kml-features.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/layer-kml.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/layer-mapsengine.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/layer-style-event.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/layer-traffic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/layer-transit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/lib/angular-ui-router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/lib/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/lib/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/lib/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/lib/prettify-tomorrow-night.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/lib/prettify-tomorrow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/lib/prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/map-coordinates.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/map-geolocation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/map-gulp-usemin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/map-gulp-usemin/map-gulp-usemin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/map-gulp-usemin/myapp.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/map-initialized-callback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/map-initialized.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/map-lazy-inint.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/map-lazy-load-params.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/map-projection-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/map-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/map-with-dynamic-id.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/map_app.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/map_control.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/map_events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/map_fit_bounds.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/map_geo_fallback_center.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/map_no_default_style.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/map_options.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/map_with_address.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/map_with_current_position.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/map_with_dynamic_address.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/map_with_dynamic_center.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/map_zoom_to_include_markers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/mapsenginelayer-noauth-layerid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/mapsenginelayer-noauth-layerkey.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/maptype-base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/maptype-image-overlay.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/maptype-image.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/maptype-overlay.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/maptype-styled-complex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/maptype-styled-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/marker-animations-iteration.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/marker-animations.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/marker-clusterer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/marker-remove.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/marker-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/marker-symbol-custom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/marker-symbol-predefined.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/marker-with-default-options.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/marker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/marker_data_with_ng_repeat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/marker_dynamic_ng_repeat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/marker_icon.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/marker_on_street_view.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/marker_with_address.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/marker_with_current_position.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/marker_with_dynamic_address.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/marker_with_ng_repeat_dynamic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/marker_with_ng_repeat_no_watcher.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/marker_with_parent_controller.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/multiple_maps_on_a_page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/overlay-custom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/overlay-hideshow.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/overlay-remove.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/overlay-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/overlay-symbol-animate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/overlay-symbol-arrow.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/overlay-symbol-custom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/overlay-symbol-dashed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/partials/custom-info-window-template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/places-auto-complete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/polygon-arrays.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/polygon-autoclose.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/polygon-draggable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/polygon-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/polyline-complex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/polyline-remove.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/polyline-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/rectangle-event.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/rectangle-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/rectangle-zoom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/script-tags-for-development.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/scripts/get-starbucks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/scripts/markerclusterer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/scripts/markerclusterer_packed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/scripts/markers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/scripts/quakes.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/scripts/starbucks.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/shape.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/shape_circle_with_current_position.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/shape_circle_with_dynamic_address.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/shape_with_ng_repeat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/street-view-panorama.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/street-view-panorama_container.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/street-view-panorama_container2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/street-view_road_trip.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/taxi-data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/ui-bootstrap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/ui-router.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/ui-router2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/us-states-20m.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ngmap/testapp/user-editable-shapes.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/main.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/app_dialogs.sass" afterPath="$PROJECT_DIR$/app/styles/app_dialogs.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css" afterPath="$PROJECT_DIR$/app/styles/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.sass" afterPath="$PROJECT_DIR$/app/styles/main.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dialogs/create_user.html" afterPath="$PROJECT_DIR$/app/views/dialogs/create_user.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="$PROJECT_DIR$/app/views/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/copy/styles/timestamp" afterPath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/copy/styles/timestamp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jshint/all/timestamp" afterPath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jshint/all/timestamp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/karma.conf.js" afterPath="$PROJECT_DIR$/test/karma.conf.js" />
     </list>
     <ignored path="userManagementSystem.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,12 +377,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="19" selection-start-line="30" selection-start-column="10" selection-end-line="32" selection-end-column="19" />
-              <folding />
+            <state relative-caret-position="675">
+              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#map#0;n#div#2;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+              <folding>
+                <marker date="1473113451000" expanded="true" signature="657:808" ph="..." />
+                <marker date="1473113451000" expanded="true" signature="750:776" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,48 +405,18 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="116" column="12" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="12" />
+            <state relative-caret-position="600">
+              <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_user.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/dialogs/create_user.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete_groups.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/dialogs/delete_groups.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app_dialogs.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/app_dialogs.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="111" column="13" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.sass" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/main.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="197" column="23" selection-start-line="197" selection-start-column="23" selection-end-line="197" selection-end-column="23" />
+            <state relative-caret-position="195">
+              <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
               <folding>
                 <element signature="e#1327#2064#1" expanded="true" />
               </folding>
@@ -105,8 +437,8 @@
       <file leaf-file-name="usersMockData.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/resources/usersMockData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="346" column="10" selection-start-line="346" selection-start-column="5" selection-end-line="346" selection-end-column="10" />
+            <state relative-caret-position="870">
+              <caret line="362" column="0" selection-start-line="362" selection-start-column="0" selection-end-line="362" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -115,8 +447,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+            <state relative-caret-position="570">
+              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -143,20 +475,20 @@
         <option value="$PROJECT_DIR$/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/styles/variables.sass" />
-        <option value="$PROJECT_DIR$/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/app/scripts/global/global_filters.js" />
         <option value="$PROJECT_DIR$/app/scripts/global/global_services.js" />
         <option value="$PROJECT_DIR$/app/styles/icons.sass" />
         <option value="$PROJECT_DIR$/app/views/dialogs/create_group.html" />
         <option value="$PROJECT_DIR$/app/views/dialogs/delete_groups.html" />
-        <option value="$PROJECT_DIR$/app/views/main.html" />
-        <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
-        <option value="$PROJECT_DIR$/app/scripts/resources/usersMockData.js" />
         <option value="$PROJECT_DIR$/app/scripts/resources/appStrings.js" />
-        <option value="$PROJECT_DIR$/app/views/dialogs/create_user.html" />
         <option value="$PROJECT_DIR$/app/styles/app_dialogs.sass" />
+        <option value="$PROJECT_DIR$/app/scripts/resources/usersMockData.js" />
+        <option value="$PROJECT_DIR$/app/scripts/app.js" />
+        <option value="$PROJECT_DIR$/app/views/dialogs/create_user.html" />
+        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/styles/main.sass" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
+        <option value="$PROJECT_DIR$/app/views/main.html" />
       </list>
     </option>
   </component>
@@ -220,6 +552,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="userManagementSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="userManagementSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="userManagementSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ngmap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="userManagementSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="userManagementSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -472,7 +836,7 @@
       <workItem from="1472904192767" duration="13212000" />
       <workItem from="1472996111598" duration="4273000" />
       <workItem from="1473000407827" duration="17195000" />
-      <workItem from="1473101771946" duration="7856000" />
+      <workItem from="1473101771946" duration="11932000" />
     </task>
     <task id="LOCAL-00001" summary="First Boiler plate integration">
       <created>1472904495710</created>
@@ -544,17 +908,24 @@
       <option name="project" value="LOCAL" />
       <updated>1473108863879</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Improving create user dialog">
+      <created>1473109674170</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1473109674170</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42536000" />
+    <option name="totallyTimeSpent" value="46612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-267" y="-1057" width="1902" height="1057" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24710831" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24710831" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -596,7 +967,8 @@
     <MESSAGE value="creating delete groups dialog" />
     <MESSAGE value="Improving user groups picker&#10;finishing delete group dialog" />
     <MESSAGE value="Implementing create user dialog" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing create user dialog" />
+    <MESSAGE value="Improving create user dialog" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improving create user dialog" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -609,7 +981,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#map#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -633,7 +1007,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#map#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -642,8 +1018,8 @@
         <state relative-caret-position="555">
           <caret line="37" column="77" selection-start-line="37" selection-start-column="77" selection-end-line="37" selection-end-column="77" />
           <folding>
-            <marker date="1473102371000" expanded="true" signature="657:808" ph="..." />
-            <marker date="1473102371000" expanded="true" signature="750:776" ph="..." />
+            <marker date="1473113451000" expanded="true" signature="657:808" ph="..." />
+            <marker date="1473113451000" expanded="true" signature="750:776" ph="..." />
           </folding>
         </state>
       </provider>
@@ -712,7 +1088,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" selection-start-line="4" selection-start-column="84" selection-end-line="4" selection-end-column="100" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#map#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -721,8 +1099,8 @@
         <state relative-caret-position="345">
           <caret line="23" column="74" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
           <folding>
-            <marker date="1473102371000" expanded="true" signature="657:808" ph="..." />
-            <marker date="1473102371000" expanded="true" signature="750:776" ph="..." />
+            <marker date="1473113451000" expanded="true" signature="657:808" ph="..." />
+            <marker date="1473113451000" expanded="true" signature="750:776" ph="..." />
           </folding>
         </state>
       </provider>
@@ -872,14 +1250,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/global/global_services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/icons.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -902,57 +1272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/global/global_filters.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
-          <folding>
-            <marker date="1473102371000" expanded="true" signature="657:808" ph="..." />
-            <marker date="1473102371000" expanded="true" signature="750:776" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="19" selection-start-line="30" selection-start-column="10" selection-end-line="32" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/resources/usersMockData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="346" column="10" selection-start-line="346" selection-start-column="5" selection-end-line="346" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="116" column="12" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/dialogs/delete_groups.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -961,10 +1280,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/dialogs/create_user.html">
+    <entry file="file://$PROJECT_DIR$/app/scripts/resources/usersMockData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        <state relative-caret-position="870">
+          <caret line="362" column="0" selection-start-line="362" selection-start-column="0" selection-end-line="362" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -977,20 +1296,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/global/global_filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/global/global_services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/app_dialogs.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="111" column="13" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
+        <state relative-caret-position="384">
+          <caret line="126" column="28" selection-start-line="126" selection-start-column="28" selection-end-line="126" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/ngmap/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/dialogs/create_user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+          <folding>
+            <marker date="1473113451000" expanded="true" signature="657:808" ph="..." />
+            <marker date="1473113451000" expanded="true" signature="750:776" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/main.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="197" column="23" selection-start-line="197" selection-start-column="23" selection-end-line="197" selection-end-column="23" />
+        <state relative-caret-position="195">
+          <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
           <folding>
             <element signature="e#1327#2064#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#map#0;n#div#2;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

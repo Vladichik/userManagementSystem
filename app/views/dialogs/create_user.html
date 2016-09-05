@@ -14,17 +14,17 @@
     <fieldset class="ums-form-fs">
       <div class="ums-dropdown-holder">
         <h5 class="ums-user-picker-ttl">{{::appStrings[lang].p_g}}</h5>
-        <div class="ums-groups-display ums-arrow-d">{{newUserGroup}}</div>
-        <select class="ums-groups-picker" ng-model="newUserGroup" change-group required>
+        <div class="ums-groups-display ums-arrow-d">{{user.group}}</div>
+        <select class="ums-groups-picker" ng-model="user.group" change-group required>
           <option ng-repeat="group in groups" ng-hide="$index === 0">{{::group}}</option>
         </select>
       </div>
 
       <div class="ums-dropdown-holder">
         <h5 class="ums-user-picker-ttl">{{::appStrings[lang].p_c}}</h5>
-        <div class="ums-groups-display ums-arrow-d ums-stick-right"></div>
-        <select class="ums-groups-picker ums-stick-right" ng-model="" change-group>
-          <option>{{::group}}</option>
+        <div class="ums-groups-display ums-arrow-d ums-stick-right">{{user.city}}</div>
+        <select class="ums-groups-picker ums-stick-right" ng-model="user.city" change-group>
+          <option ng-repeat="city in cities">{{::city}}</option>
         </select>
       </div>
     </fieldset>
@@ -33,5 +33,4 @@
       <button class="ums-action-button-green" type="submit" ng-click="deleteGroups()" ng-disabled="createUserForm.$invalid">{{::appStrings[lang].delete}}</button>
     </div>
   </form>
-
 </div>

@@ -98,6 +98,10 @@ input[type=text], input[type=email], input[type=tel], input[type=url]
     border: solid 1px $disabled_button
     background: $disabled_button
     color: $disabled_text
+
+ng-map
+  width: 100%
+  height: 100%
 //---- & default styling settings & ------//
 
 body
@@ -167,6 +171,12 @@ body
       border-radius: 50%
       border: solid 1px $separator_color
       overflow: hidden
+
+.ums-map-main-container
+  display: inline-block
+  width: calc(50% - 1px)
+  height: calc(100% - 51px)
+  float: left
 
 .ums-avatar-block, .ums-user-details-block, .ums-user-group-block
   float: left
@@ -245,4 +255,8 @@ body
   margin: 0 0 0 10px
 
 
+
+
+
 @media all and (max-width: 801px)
+
