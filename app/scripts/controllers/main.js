@@ -25,8 +25,15 @@ angular.module('userManagementSystemApp')
       $rootScope.dialogType = "delete-groups";
     };
 
+    /**
+     * Method that opens create new user dialog
+     */
     $scope.createUserDialog = function(){
       $rootScope.dialogType = "create-users";
+    };
+
+    $scope.closeMap = function(){
+      $scope.shouldShowMap = false;
     };
 
     /**
@@ -39,6 +46,14 @@ angular.module('userManagementSystemApp')
         $scope.groupFilter = $scope.selectedGroup;
       }
     };
+
+
+    // setTimeout(function(){
+    //   NgMap.getMap().then(function(map) {
+    //     debugger;
+    //     map.invalidateSize();
+    //   }, 10000);
+    // })
 
   }])
   /**
@@ -163,4 +178,17 @@ angular.module('userManagementSystemApp')
         $rootScope.$apply();
       });
     }
-  }]);
+  }])
+  .directive('setSelected', function(){
+    return function(scope, element){
+      element.on("click", function(){
+        scope.$parent.selectedUser = scope.user.id;
+        scope.$parent.activeLat = scope.user.latitude;
+        scope.$parent.activeLng = scope.user.longitude;
+        if(window.innerWidth < 801){
+          scope.$parent.shouldShowMap = true;
+        }
+        scope.$apply();
+      });
+    }
+  });

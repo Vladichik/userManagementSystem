@@ -229,7 +229,8 @@ html, body, .ums-ng-view {
   height: 100%;
   font-family: Arial;
   font-size: 12px;
-  font-weight: 100; }
+  font-weight: 100;
+  overflow: hidden; }
 
 a, button {
   cursor: pointer;
@@ -380,7 +381,14 @@ body {
     cursor: pointer;
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3); }
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    will-change: background;
+    -webkit-transition: background 400ms ease-out;
+    -moz-transition: background 400ms ease-out;
+    -o-transition: background 400ms ease-out;
+    transition: background 400ms ease-out; }
+    .ums-users-list-block li.ums-active {
+      background: lightgoldenrodyellow; }
     .ums-users-list-block li img {
       height: 68px;
       width: 68px;
@@ -472,3 +480,30 @@ body {
   -o-transition: background 200ms ease-out;
   transition: background 200ms ease-out;
   margin: 0 0 0 10px; }
+
+.ums-map-control-panel {
+  display: none; }
+
+@media all and (max-width: 801px) {
+  .ums-users-list-block {
+    width: 100%; }
+
+  .ums-map-main-container {
+    position: absolute;
+    width: 100%;
+    right: -100%;
+    will-change: right;
+    -webkit-transition: right 300ms ease-out;
+    -moz-transition: right 300ms ease-out;
+    -o-transition: right 300ms ease-out;
+    transition: right 300ms ease-out; }
+    .ums-map-main-container.ums-focussed {
+      right: 0; }
+
+  .ums-map-control-panel {
+    display: inline-block;
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    background: white;
+    z-index: 1; } }

@@ -28,7 +28,8 @@ var APP_STRINGS = {
     e_m: "E-Mail *",
     p_c: "Pick city *",
     p_g: "Pick group *",
-    u_p: "Photo url (optional)"
+    u_p: "Photo url (optional)",
+    cls_map: "Close Map"
   }
 };
 

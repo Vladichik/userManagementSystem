@@ -16,6 +16,7 @@ html, body, .ums-ng-view
   font-family: Arial
   font-size: $main_font_size
   font-weight: 100
+  overflow: hidden
 
 a, button
   cursor: pointer
@@ -164,6 +165,10 @@ body
     overflow: hidden
     cursor: pointer
     +shadowGenerator(0px 0px 5px 0px rgba(0,0,0,0.3))
+    +transition(background, 400ms)
+    &.ums-active
+      background: lightgoldenrodyellow
+
 
     img
       height: 68px
@@ -254,9 +259,27 @@ body
   +transition(background, 200ms)
   margin: 0 0 0 10px
 
-
-
+.ums-map-control-panel
+  display: none
 
 
 @media all and (max-width: 801px)
+  .ums-users-list-block
+    width: 100%
+  .ums-map-main-container
+    position: absolute
+    width: 100%
+    right: -100%
+    +transition(right, 300ms)
+    &.ums-focussed
+      right: 0
+  .ums-map-control-panel
+    display: inline-block
+    position: absolute
+    height: 40px
+    width: 100%
+    background: white
+    z-index: 1
+
+
 

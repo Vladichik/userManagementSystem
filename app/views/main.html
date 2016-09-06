@@ -13,7 +13,7 @@
     <i class="ums-create-user" title="{{::appStrings[lang].cr_user}}" ng-click="createUserDialog()"></i>
   </div>
   <ul class="ums-users-list" cscroll>
-    <li ng-repeat="user in usersData | filter: search | filter: groupFilter">
+    <li ng-repeat="user in usersData | filter: search | filter: groupFilter" ng-class="{'ums-active': user.id == selectedUser}" set-selected>
       <div class="ums-avatar-block">
         <img src="{{::user.photo}}" />
       </div>
@@ -37,9 +37,14 @@
   </ul>
 </div>
 <!--------- & USERS LIST & ------------>
-<div class="ums-map-main-container">
-    <map default-style="false" style="height: 100%; display:block;" center="[40.74, -74.18]">
-      <marker position="[40.74, -74.18]"></marker>
+<!------------ MAP CONTAINER ---------->
+<div class="ums-map-main-container" ng-class="{'ums-focussed': shouldShowMap == true}">
+  <div class="ums-map-control-panel">
+    <button class="ums-action-button-green" ng-click="closeMap()">{{::appStrings[lang].cls_map}}</button>
+  </div>
+    <map default-style="false" style="height: 100%; display:block;" center="[{{activeLat}}, {{activeLng}}]">
+      <marker position="[{{activeLat}}, {{activeLng}}]"></marker>
   </map>
 </div>
+<!---------- & MAP CONTAINER & -------->
 
