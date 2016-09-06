@@ -40,6 +40,8 @@ When we create new user, we must pick user location (city) from "Pick city" drop
 
 ===========================================
 
+===========================================
+
 **Voice recognition explanation**
 
 **The main purpose of voice recognition module is to find user in the list by first_name.**
@@ -54,6 +56,8 @@ text on the application top bar saying **Looking for Steven**, when it does find
 
 **NOTE:** _Voice recognition performance depends on internet connection speed, so please don't worry if 
 it takes few seconds to respond. If it takes too much time, refresh the page and try again._
+
+============================================
 
 
 
