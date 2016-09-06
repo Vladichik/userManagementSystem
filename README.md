@@ -48,7 +48,7 @@ When we create new user, we must pick user location (city) from "Pick city" drop
 
 When you launch the application for the first time it will ask you to allow browser to use your microphone. Press YES to allow.
 In order to find some user in the list simply say **FIND STEVEN** or any other name that you want to find. Expected behavior - you should see the
-text on the application top bar saying **Looking for Steven**, when it does find Steven then few things should happen:
+text on the application top bar saying **Looking for Steven**, if you see that the name its looking for differs from the one you said, repeat the command **FIND STEVEN**. When it does find Steven then few things should happen:
 
 1. The text on the tob bar will change to **Steven found!!!**
 2. Users list will scroll automatically to Stevens position
