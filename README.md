@@ -16,7 +16,7 @@
 4. Ability to create new groups
 5. Ability to change user group
 6. Ability to delete group if group no longer has members
-7. Ability to delete users (to delete user/s check its checkbox located in users row upper right corner then press recycle icon on the top bar)
+7. Ability to delete users (to delete user/s check the checkbox located in users row upper right corner then press recycle icon on the top bar)
 8. Create new user form validation
 9. Ability to Search/Filter users by free text input
 10. Ability to filter users by groups
