@@ -45,12 +45,15 @@ When we create new user, we must pick user location (city) from "Pick city" drop
 **The main purpose of voice recognition module is to find user in the list by first_name.**
 
 When you launch the application for the first time it will ask you to allow browser to use your microphone. Press YES to allow.
-Then to find some user in the list simply say **FIND STEVEN** or any other name that you want to find. Expected behavior - you should see the
+In order to find some user in the list simply say **FIND STEVEN** or any other name that you want to find. Expected behavior - you should see the
 text on the application top bar saying **Looking for Steven**, when it does find Steven then few things should happen:
 
 1. The text on the tob bar will change to **Steven found!!!**
 2. Users list will scroll automatically to Stevens position
-3. The Stevens row will become focused and his location will appear on the map
+3. Stevens row will become focused and his location will appear on the map
+
+**NOTE:** _Voice recognition performance depends on internet connection speed, so please don't worry if 
+it takes few seconds to respond. If it takes too much time, refresh the page and try again._
 
 
 
