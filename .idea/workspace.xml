@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9d1ea2f-9ea7-4ab2-bdbd-31b6644fe53d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/annyang/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/annyang/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/annyang/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/annyang/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/annyang/annyang.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/annyang/annyang.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/annyang/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/annyang/docs/FAQ.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/annyang/docs/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/annyang/test/SpecRunner.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/annyang/test/init_corti.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/annyang/test/spec/BasicSpec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/annyang/test/spec/IssuesSpec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/annyang/test/vendor/corti.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/main.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/global/global_services.js" afterPath="$PROJECT_DIR$/app/scripts/global/global_services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/resources/appStrings.js" afterPath="$PROJECT_DIR$/app/scripts/resources/appStrings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/resources/usersMockData.js" afterPath="$PROJECT_DIR$/app/scripts/resources/usersMockData.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/icons.sass" afterPath="$PROJECT_DIR$/app/styles/icons.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css" afterPath="$PROJECT_DIR$/app/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.sass" afterPath="$PROJECT_DIR$/app/styles/main.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dialogs/create_user.html" afterPath="$PROJECT_DIR$/app/views/dialogs/create_user.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="$PROJECT_DIR$/app/views/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/copy/styles/timestamp" afterPath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/copy/styles/timestamp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jscs/all/timestamp" afterPath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jscs/all/timestamp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jshint/all/timestamp" afterPath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jshint/all/timestamp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/karma.conf.js" afterPath="$PROJECT_DIR$/test/karma.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="userManagementSystem.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,7 +60,7 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
+            <state relative-caret-position="435">
               <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
               <folding />
             </state>
@@ -98,7 +70,7 @@
       <file leaf-file-name="main.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/main.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
+            <state relative-caret-position="5280">
               <caret line="352" column="17" selection-start-line="352" selection-start-column="17" selection-end-line="352" selection-end-column="17" />
               <folding>
                 <element signature="e#1346#2083#1" expanded="true" />
@@ -147,12 +119,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="usersMockData.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="usersMockData.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/resources/usersMockData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="73" column="4" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
+            <state relative-caret-position="1230">
+              <caret line="82" column="87" selection-start-line="82" selection-start-column="87" selection-end-line="82" selection-end-column="87" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="120">
+                <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -192,6 +180,7 @@
         <option value="$PROJECT_DIR$/app/views/main.html" />
         <option value="$PROJECT_DIR$/app/scripts/global/global_services.js" />
         <option value="$PROJECT_DIR$/app/scripts/resources/usersMockData.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -209,10 +198,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-269" />
-    <option name="y" value="-1177" />
-    <option name="width" value="1920" />
-    <option name="height" value="1177" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="826" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -239,8 +227,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -522,7 +510,8 @@
       <workItem from="1472996111598" duration="4273000" />
       <workItem from="1473000407827" duration="17195000" />
       <workItem from="1473101771946" duration="12649000" />
-      <workItem from="1473167714185" duration="16761000" />
+      <workItem from="1473167714185" duration="17537000" />
+      <workItem from="1473196618665" duration="265000" />
     </task>
     <task id="LOCAL-00001" summary="First Boiler plate integration">
       <created>1472904495710</created>
@@ -615,34 +604,41 @@
       <option name="project" value="LOCAL" />
       <updated>1473174347418</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Integrating voice recognition">
+      <created>1473195048384</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1473195048384</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64090000" />
+    <option name="totallyTimeSpent" value="65131000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-269" y="-1177" width="1920" height="1177" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="826" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15989584" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21319444" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -670,7 +666,8 @@
     <MESSAGE value="Improving create user dialog" />
     <MESSAGE value="integrating google maps" />
     <MESSAGE value="Map Manipulations and mobile view implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Map Manipulations and mobile view implementation" />
+    <MESSAGE value="Integrating voice recognition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integrating voice recognition" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -679,14 +676,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/scripts/resources/appStrings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="7" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/resources/usersMockData.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5430">
@@ -725,7 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1155">
           <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -743,10 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" column="77" selection-start-line="37" selection-start-column="77" selection-end-line="37" selection-end-column="77" />
-          <folding>
-            <marker date="1473192408000" expanded="true" signature="657:808" ph="..." />
-            <marker date="1473192408000" expanded="true" signature="750:776" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -782,7 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -824,10 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="74" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
-          <folding>
-            <marker date="1473192408000" expanded="true" signature="657:808" ph="..." />
-            <marker date="1473192408000" expanded="true" signature="750:776" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -845,7 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -860,6 +838,8 @@
             <element signature="e#5829#7390#1" expanded="true" />
             <element signature="e#7446#8979#1" expanded="true" />
             <element signature="e#9023#10472#1" expanded="true" />
+            <element signature="e#10523#11148#1" expanded="true" />
+            <element signature="e#11213#11810#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -907,7 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="53" column="49" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -929,7 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -972,7 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -980,7 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="126" column="28" selection-start-line="126" selection-start-column="28" selection-end-line="126" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -988,7 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -996,10 +971,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
-          <folding>
-            <marker date="1473192408000" expanded="true" signature="657:808" ph="..." />
-            <marker date="1473192408000" expanded="true" signature="750:776" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1007,7 +978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1015,7 +985,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1023,7 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1037,7 +1005,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/main.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
+        <state relative-caret-position="5280">
           <caret line="352" column="17" selection-start-line="352" selection-start-column="17" selection-end-line="352" selection-end-column="17" />
           <folding>
             <element signature="e#1346#2083#1" expanded="true" />
@@ -1090,7 +1058,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
+        <state relative-caret-position="435">
           <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
           <folding />
         </state>
@@ -1106,9 +1074,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/resources/usersMockData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="73" column="4" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
+        <state relative-caret-position="1230">
+          <caret line="82" column="87" selection-start-line="82" selection-start-column="87" selection-end-line="82" selection-end-column="87" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
