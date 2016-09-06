@@ -30,11 +30,15 @@
 2. Voice recognition
 
 
+==========================================
 _** Goolgle maps explanation **_
 
 Every user has location data - city name and city lat/lng.
 When we click on some user from the list his location will be displayed on the map.
 When we create new user, we must pick user location (city) from select box. This field is mandatory.
+===========================================
+
+_** Voice recognition explanation **_
 
 
 
