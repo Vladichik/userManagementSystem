@@ -1,19 +1,31 @@
 <!------------ TOP BAR --------------->
 <div class="ums-top-bar">
-  <div class="ums-groups-display ums-arrow-d">{{selectedGroup}}</div>
-  <select class="ums-groups-picker" ng-options="group as group for group in groups track by group" ng-model="selectedGroup"  ng-change="setFilterModel()"></select>
   <i class="ums-create-group" title="{{::appStrings[lang].create_group}}" ng-click="createGroupDialog()"></i>
   <i class="ums-delete-group" title="{{::appStrings[lang].del_grp}}" ng-click="deleteGroupDialog()"></i>
+  <i class="ums-create-user" title="{{::appStrings[lang].cr_user}}" ng-click="createUserDialog()"></i>
+  <i class="ums-delete-user" title="{{::appStrings[lang].del_sel_leads}}" ng-class="{'ums-enabled': deleteButtonIsActive === true, 'expanded': approveDelete == true}" ng-click="approveDelete = !approveDelete">
+    <div class="ums-approve-btns">
+      <i ng-click="deleteSelectedUsers()">Yes</i>
+      <i>No</i>
+    </div>
+    <div class="ums-question">
+      {{::appStrings[lang].are_u_s}}
+    </div>
+  </i>
+  <span class="ums-voice-result-screen">{{recognizedName}}</span>
 </div>
 <!---------- & TOP BAR & -------------->
 <!----------- USERS LIST -------------->
 <div class="ums-users-list-block">
   <div class="ums-users-top-bar">
+    <div class="ums-groups-filter-block">
+      <div class="ums-groups-display ums-arrow-d">{{selectedGroup}}</div>
+      <select class="ums-groups-picker" ng-options="group as group for group in groups track by group" ng-model="selectedGroup"  ng-change="setFilterModel()"></select>
+    </div>
     <input type="text" placeholder="{{::appStrings[lang].srch}}" ng-model="search"/>
-    <i class="ums-create-user" title="{{::appStrings[lang].cr_user}}" ng-click="createUserDialog()"></i>
   </div>
-  <ul class="ums-users-list" cscroll>
-    <li ng-repeat="user in usersData | filter: search | filter: groupFilter" ng-class="{'ums-active': user.id == selectedUser}" set-selected>
+   <ul class="ums-users-list" cscroll>
+    <li ng-repeat="user in usersData | filter: search | filter: groupFilter" ng-class="{'ums-active': user.id == selectedUser}" id="user_{{user.id}}" set-selected>
       <div class="ums-avatar-block">
         <img src="{{::user.photo}}" />
       </div>
@@ -24,11 +36,15 @@
         <span class="ums-detail">{{::appStrings[lang].ct}}{{::user.city}}</span>
       </div>
       <div class="ums-user-group-block">
+        <div class="ums-del-user-cb" stop-prop>
+          <input type="checkbox" id="user_{{$index}}" class="cl-checkbox" ng-model="user.cb" checked-users>
+          <label class="ums-cb-label" for="user_{{$index}}">{{::group}}</label>
+        </div>
         <span class="ums-group-name">{{::appStrings[lang].grp}} {{user.group}}</span>
         <span class="ums-change-group">{{::appStrings[lang].chg_grp}}</span>
         <div class="ums-user-group-picker">
           <div class="ums-groups-display ums-arrow-d">{{userGroup}}</div>
-          <select class="ums-groups-picker" ng-init="userGroup = user.group" ng-model="userGroup" change-group>
+          <select class="ums-groups-picker" ng-init="userGroup = user.group" ng-model="userGroup" change-group stop-prop>
             <option ng-repeat="group in groups" ng-hide="$index === 0">{{::group}}</option>
           </select>
         </div>

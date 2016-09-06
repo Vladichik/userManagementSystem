@@ -38,7 +38,7 @@ var MOCK_USERS_DATA = [{
   },
   {
     "id": 4,
-    "first_name": "Janet",
+    "first_name": "Mika",
     "last_name": "Nichols",
     "email": "jnichols3@plala.or.jp",
     "city": "São Miguel dos Campos",
@@ -350,7 +350,7 @@ var MOCK_USERS_DATA = [{
   },
   {
     "id": 30,
-    "first_name": "Janet",
+    "first_name": "Nadia",
     "last_name": "Ford",
     "email": "jfordt@wix.com",
     "city": "Béziers",

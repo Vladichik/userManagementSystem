@@ -129,9 +129,20 @@ body
 
 .ums-groups-picker
   position: absolute
-  height: 25px
+  height: 27px
   width: 160px
   opacity: 0
+
+
+.ums-groups-filter-block
+  position: relative
+  .ums-groups-picker
+    bottom: 0
+
+.ums-filters-ttl
+  display: inline-block
+  line-height: 50px
+  margin: 0 10px 0 0
 
 .ums-create-group
   @extend .ums-groups
@@ -213,6 +224,7 @@ body
   display: inline-block
   padding: 0 0 0 10px
   border-left: solid 1px $separator_color
+  position: relative
 .ums-group-name
   line-height: 25px
   color: $main_green_pressed
@@ -243,12 +255,13 @@ body
 
   input[type=text]
     width: 140px
+    margin: 0 0 0 20px
 
 .ums-create-user
   @extend .ums-user
-  background-size: 25px
+  background-size: 29px
   &:hover
-    background-size: 25px
+    background-size: 29px
 
 
 .ums-create-group, .ums-create-user, .ums-delete-group
@@ -261,6 +274,85 @@ body
 
 .ums-map-control-panel
   display: none
+.ums-del-user-cb
+  position: absolute
+  right: 0
+  top: 0
+  z-index: 2
+  .ums-cb-label
+    width: 20px
+    height: 20px
+    display: inline-block
+    cursor: pointer
+
+.ums-delete-user
+  width: 27px
+  height: 27px
+  border-radius: 50%
+  margin: 0 0 0 10px
+  cursor: pointer
+  border: solid 1px $main_font_color
+  overflow: hidden
+  background-size: 18px
+  opacity: 0.3
+  pointer-events: none
+  +transition(all, 250ms)
+  @extend .ums-recicle-icon
+  &:hover
+    border: solid 1px $main_green
+    @extend .ums-recicle-icon-green
+    background-size: 18px
+  &.ums-enabled
+    opacity: 1
+    pointer-events: initial
+  &.expanded
+    height: 40px
+    width: 150px
+    border-radius: 5px
+    &:hover
+      @extend .ums-recicle-icon
+      background-size: 18px
+      border: solid 1px $main_font_color
+
+    .ums-approve-btns
+      display: inline-block
+    .ums-question
+      display: inline-flex
+
+
+.ums-question, .ums-approve-btns
+  float: right
+  display: none
+  +noUserSelect()
+
+
+.ums-question
+  height: 100%
+  align-items: center
+  width: 60px
+
+.ums-approve-btns
+  border-left: solid 1px $main_font_color
+  i
+    display: block
+    width: 50px
+    line-height: 20px
+    color: $main_green
+    text-align: center
+    &:hover
+      background: $separator_color
+    &:last-child
+      color: red
+      border-top: solid 1px $main_font_color
+
+.ums-voice-result-screen
+  display: inline-block
+  color: $main_green_pressed
+  font-weight: bold
+  margin: 0 0 0 20px
+  +noUserSelect()
+
+
 
 
 @media all and (max-width: 801px)
@@ -274,12 +366,17 @@ body
     &.ums-focussed
       right: 0
   .ums-map-control-panel
-    display: inline-block
+    display: inline-flex
+    justify-content: flex-end
+    align-items: center
+    text-align: right
     position: absolute
     height: 40px
     width: 100%
     background: white
     z-index: 1
+    button
+      margin: 0 20px 0 0
 
 
 

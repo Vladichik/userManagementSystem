@@ -1,7 +1,7 @@
 "use strict";
 
 angular.module('userManagementSystemApp')
-  .controller('MainCtrl', ['$rootScope', '$scope', 'NgMap', function ($rootScope, $scope, NgMap) {
+  .controller('MainCtrl', ['$rootScope', '$scope', 'NgMap', '$filter', '$voice', function ($rootScope, $scope, NgMap, $filter, $voice) {
     $scope.selectedGroup = APP_STRINGS[$rootScope.lang].groups[0];
 
     /**
@@ -32,8 +32,30 @@ angular.module('userManagementSystemApp')
       $rootScope.dialogType = "create-users";
     };
 
+    /**
+     * This method closes map screen in mobile view
+     */
     $scope.closeMap = function(){
       $scope.shouldShowMap = false;
+    };
+
+    /**
+     * This method performs delete of checked users
+     */
+    $scope.deleteSelectedUsers = function(){
+      var usersToDelete = [];
+      angular.forEach($scope.usersData, function(user, index){
+        if(user.cb){
+          usersToDelete.push(user.id);
+        }
+      });
+      angular.forEach(usersToDelete, function(id){
+        var indexToDelete = $filter("getIndex")($scope.usersData, "id", id);
+        if(indexToDelete !== null){
+          $rootScope.usersData.splice(indexToDelete, 1);
+        }
+      });
+      $scope.deleteButtonIsActive = false;
     };
 
     /**
@@ -46,14 +68,6 @@ angular.module('userManagementSystemApp')
         $scope.groupFilter = $scope.selectedGroup;
       }
     };
-
-
-    // setTimeout(function(){
-    //   NgMap.getMap().then(function(map) {
-    //     debugger;
-    //     map.invalidateSize();
-    //   }, 10000);
-    // })
 
   }])
   /**
@@ -179,6 +193,20 @@ angular.module('userManagementSystemApp')
       });
     }
   }])
+  /**
+   * Directive that stops propagation of the parent click event
+   * Example usage is in row_lead.html "stop-prop"
+   */
+  .directive("stopProp", function () {
+    return function (scope, element) {
+      element.on("click", function (event) {
+        event.stopPropagation();
+      });
+    };
+  })
+  /**
+   * This directive sets active user row
+   */
   .directive('setSelected', function(){
     return function(scope, element){
       element.on("click", function(){
@@ -188,6 +216,24 @@ angular.module('userManagementSystemApp')
         if(window.innerWidth < 801){
           scope.$parent.shouldShowMap = true;
         }
+        scope.$apply();
+      });
+    }
+  })
+  /**
+   * This directive checks if some user row is
+   * checked, if so, the delete button will turn to enabled
+   * else it will remain disabled
+   */
+  .directive("checkedUsers", function(){
+    return function(scope, element){
+      element.on("change", function(){
+        scope.$parent.deleteButtonIsActive = false;
+        angular.forEach(scope.usersData, function(user){
+          if(user.cb == true){
+            scope.$parent.deleteButtonIsActive = true;
+          }
+        });
         scope.$apply();
       });
     }

@@ -22,6 +22,12 @@
   .ums-delete-group-icon:hover, .ums-delete-group:hover {
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAjVBMVEUAAACH0k+R3FqS3FqR3FmQ3VqR3FqR3FqR3FqS3FqR3lqQ3FqR3VqR3VqS3lqS3VqR3FqR3FqR3FqR3VqR3FqR3FqR3FqS3FuS2VmR3FqR3FqR3VqR3FqR3VqR3FuS31+R3lqR3FqR3FqR3FmR3FqR3FuR3VqR3FqR3VqR3FmR3FqR3VqR3FqR3VqR3Frl7q6wAAAALnRSTlMABJCorS/51/FHJh31tBJD6tzQycS9XD0N7ebghVgsChd/cWhlTIt4YDeeUmyYJLcYOwAAAxxJREFUWMOdl+mSokAQhBtEQAXlFLkUr/Gc7/0fb53YGRa1YGDzhxFWa9KVndVVKBmzvRukTh7pC039B6YGNbz7YAqtMMEJ9fPkZOSANVaDsHLBK7WfXAxwboOeH4FRNQJlCscBBFdYPkeqCHut+uII+tuR2AS9E7CwNm/Rc72rX7GEixB28XsSGLhSeAz9VNBsTmLcEeISpjARF0JGvQgWMBcXdKJeBCWZvHDA6kVwwZRLZ4vbrw5g3HI6H6oX/BbH5GJcflL/ncm5xlI4EbSRsZAtNxJPsb9j1gNuhImUrUGoeiPEEEpJMPiALbhEagAi/Od62MFiCMHaJtaaWzL5VIPw+Ef8bw9Lp+brjQPk36rNdQjmagiqW6UmKYT7ZH3THTBWKhnQF84paammcd0ad6pyIZ6qXpi5fGG0UuNr4JDF+42aZDxgbrU+yduYxRdJnjy+aavHx0qH9LwOwfp9EyPwky/hU7CK42W6OBsOuNWD7G6T/cbwAZ+rv0Ia1EiX3/bIfmPYw+6f/behDWY+Kle1PhaeUOodhttUT7ppd3Cs+HqfKQlju9tw0w+PH4RHuSt3GG5lAN5oezhsrxmSLW6YHQrNAgjqeS0JwZ681nBX7xtnmEUjP+1kvg4MSX2LyPJYl5eSDzGfQgaxakVMWr2JkpPNGxJ33Tk3KKX7v9mCio4hSvMx5IZvzhq3pt5KcMcTz3fjU9RfLPbt3bKN/NQYGRyS9n7dtraGnxxmUHVMDG0Od1jUinodM8tjba+/Yac1ZokD/qZ98rTUGAELFdXlP+l4JziSKa0YveFjoyzO9XBmY95bfNyugd1oudMAXPG453BpHUqnDVvokG4liohCJtjhP1veA7uYC37JRYW14NVhm50Hjp68pDxz5Oa8raepFwpS4zB7ue0XgrgmV6lCdiFfyCPjc7svjxt12s898pWQgD1TIublNeMH+hxLJSbRy48rt3tuG5e74uoGuTVR5WP7Z7AP6uVN8KQG4OaAO1WNd1HzoAZhHABBcZ4sltuQ7x48CNoyp0a219R/4FLEvu340cezU/4AoJZiBqCyd7gAAAAASUVORK5CYII=") center no-repeat; }
 
+.ums-recicle-icon, .ums-delete-user, .ums-delete-user.expanded:hover {
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAY1BMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmaHTeAAAAIHRSTlMAKDi4qDCI2GDg1fjw6qyYkndoZlpMKhS9oZuHRB0ZC/1zmiIAAADpSURBVFjD7ZfLDoIwEEVBRJy2PAXx7fn/rzQxjcHG2nSp6dkxw5xFM7O4mYe8ERZIk2dRTBoHPcXMzzWm3S5oDfUcIdjB/r2yh12EoEW5JUUbIVhTuKWC9b8L+s0ShWwcBPX23TsCIRJxBIeqqgSkCmL/Onzaf1hlQVbwvIt/F1yGyZ7lMMz2wIdLhOC1SCWUr0VKgiRIgiRIgiRIgiRIgh8XdHK0WUvEpq+jdEHBHcYsyAh3X0/RhQUdyts7oYMJN9ecvM2rQZXf50uFuX5NrLrpt176RgcS7GgIYALvfDsXNV7q4nxzBh6qj02vlONcRAAAAABJRU5ErkJggg==") left 4px center no-repeat; }
+
+.ums-recicle-icon-green, .ums-delete-user:hover {
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAWlBMVEUAAACT31mS21uS3FqS3FqP2lqQ21qR3FqS3FqR3VqR3FqR3FqR3FqR3FqR3VqR3FqR3VmR3FqS3VmR3VuR3FqR3FqW2l2Q3FqS3FqR21uN3FiP4FyL0V2R3Fpt/M6cAAAAHXRSTlMAKDi4qDCI2GDg1fjwk0nqrJp3aGZaFL2hhx0ZC5QPZWEAAADgSURBVFjD7dfLDoJADIXhjojYuQCC4PW8/2u6mRisgWaWmv47GvgSyLAoreR6xiLuHRXVBohCSwXNHWI6LkoR3VwAnAEnXgk4FwAneDnyOBUAe1RyVGH/78BwWObBBxHDf1wPAmAUxgK4NE3DADdq+a4LfeeAHant8iH7d6Ad2/xbjuMsRgogDlIN1O+DZIABBhhggAEGGGDAjwOJr3nEnO++clKBJzCR2gQ8aSWPpAMJfmPbC46UXNjY/+4RvqbNao9439xYQz8cVxv6oGywU4RSVL7z41Z1WK2rbg/xwAvMBUcZ6ug+MgAAAABJRU5ErkJggg==") left 4px center no-repeat; }
+
 /****** FONT SIZES ****** */
 /************************ */
 /****** APP COLORS ****** */
@@ -349,9 +355,19 @@ body {
 
 .ums-groups-picker {
   position: absolute;
-  height: 25px;
+  height: 27px;
   width: 160px;
   opacity: 0; }
+
+.ums-groups-filter-block {
+  position: relative; }
+  .ums-groups-filter-block .ums-groups-picker {
+    bottom: 0; }
+
+.ums-filters-ttl {
+  display: inline-block;
+  line-height: 50px;
+  margin: 0 10px 0 0; }
 
 .ums-create-group {
   background-size: contain; }
@@ -433,7 +449,8 @@ body {
   vertical-align: top;
   display: inline-block;
   padding: 0 0 0 10px;
-  border-left: solid 1px #d8d8d8; }
+  border-left: solid 1px #d8d8d8;
+  position: relative; }
 
 .ums-group-name {
   line-height: 25px;
@@ -462,12 +479,13 @@ body {
   align-items: center;
   padding: 0 10px; }
   .ums-users-top-bar input[type=text] {
-    width: 140px; }
+    width: 140px;
+    margin: 0 0 0 20px; }
 
 .ums-create-user {
-  background-size: 25px; }
+  background-size: 29px; }
   .ums-create-user:hover {
-    background-size: 25px; }
+    background-size: 29px; }
 
 .ums-create-group, .ums-create-user, .ums-delete-group {
   width: 30px;
@@ -483,6 +501,90 @@ body {
 
 .ums-map-control-panel {
   display: none; }
+
+.ums-del-user-cb {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2; }
+  .ums-del-user-cb .ums-cb-label {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    cursor: pointer; }
+
+.ums-delete-user {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  margin: 0 0 0 10px;
+  cursor: pointer;
+  border: solid 1px #333333;
+  overflow: hidden;
+  background-size: 18px;
+  opacity: 0.3;
+  pointer-events: none;
+  will-change: all;
+  -webkit-transition: all 250ms ease-out;
+  -moz-transition: all 250ms ease-out;
+  -o-transition: all 250ms ease-out;
+  transition: all 250ms ease-out; }
+  .ums-delete-user:hover {
+    border: solid 1px #8bc53e;
+    background-size: 18px; }
+  .ums-delete-user.ums-enabled {
+    opacity: 1;
+    pointer-events: initial; }
+  .ums-delete-user.expanded {
+    height: 40px;
+    width: 150px;
+    border-radius: 5px; }
+    .ums-delete-user.expanded:hover {
+      background-size: 18px;
+      border: solid 1px #333333; }
+    .ums-delete-user.expanded .ums-approve-btns {
+      display: inline-block; }
+    .ums-delete-user.expanded .ums-question {
+      display: inline-flex; }
+
+.ums-question, .ums-approve-btns {
+  float: right;
+  display: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none; }
+
+.ums-question {
+  height: 100%;
+  align-items: center;
+  width: 60px; }
+
+.ums-approve-btns {
+  border-left: solid 1px #333333; }
+  .ums-approve-btns i {
+    display: block;
+    width: 50px;
+    line-height: 20px;
+    color: #8bc53e;
+    text-align: center; }
+    .ums-approve-btns i:hover {
+      background: #d8d8d8; }
+    .ums-approve-btns i:last-child {
+      color: red;
+      border-top: solid 1px #333333; }
+
+.ums-voice-result-screen {
+  display: inline-block;
+  color: #608d25;
+  font-weight: bold;
+  margin: 0 0 0 20px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none; }
 
 @media all and (max-width: 801px) {
   .ums-users-list-block {
@@ -501,9 +603,14 @@ body {
       right: 0; }
 
   .ums-map-control-panel {
-    display: inline-block;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
     position: absolute;
     height: 40px;
     width: 100%;
     background: white;
-    z-index: 1; } }
+    z-index: 1; }
+    .ums-map-control-panel button {
+      margin: 0 20px 0 0; } }

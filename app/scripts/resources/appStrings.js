@@ -29,7 +29,10 @@ var APP_STRINGS = {
     p_c: "Pick city *",
     p_g: "Pick group *",
     u_p: "Photo url (optional)",
-    cls_map: "Close Map"
+    cls_map: "Close Map",
+    crt: "Create",
+    del_sel_leads: "Delete selected users",
+    are_u_s: "Delete users"
   }
 };
 
