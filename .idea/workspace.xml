@@ -136,8 +136,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="120">
-                <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -511,7 +511,7 @@
       <workItem from="1473000407827" duration="17195000" />
       <workItem from="1473101771946" duration="12649000" />
       <workItem from="1473167714185" duration="17537000" />
-      <workItem from="1473196618665" duration="265000" />
+      <workItem from="1473196618665" duration="712000" />
     </task>
     <task id="LOCAL-00001" summary="First Boiler plate integration">
       <created>1472904495710</created>
@@ -611,11 +611,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473195048384</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Committing instructions">
+      <created>1473196907270</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1473196907270</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65131000" />
+    <option name="totallyTimeSpent" value="65578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="826" extended-state="6" />
@@ -667,7 +674,8 @@
     <MESSAGE value="integrating google maps" />
     <MESSAGE value="Map Manipulations and mobile view implementation" />
     <MESSAGE value="Integrating voice recognition" />
-    <option name="LAST_COMMIT_MESSAGE" value="Integrating voice recognition" />
+    <MESSAGE value="Committing instructions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Committing instructions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1092,8 +1100,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="120">
-            <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
             <folding />
           </first_editor>
           <second_editor />
