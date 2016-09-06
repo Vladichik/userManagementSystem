@@ -37,8 +37,8 @@
       </div>
       <div class="ums-user-group-block">
         <div class="ums-del-user-cb" stop-prop>
-          <input type="checkbox" id="user_{{$index}}" class="cl-checkbox" ng-model="user.cb" checked-users>
-          <label class="ums-cb-label" for="user_{{$index}}">{{::group}}</label>
+          <input type="checkbox" id="usr_{{user.id}}" class="cl-checkbox" ng-model="user.cb" checked-users>
+          <label class="ums-cb-label" for="usr_{{user.id}}">{{::group}}</label>
         </div>
         <span class="ums-group-name">{{::appStrings[lang].grp}} {{user.group}}</span>
         <span class="ums-change-group">{{::appStrings[lang].chg_grp}}</span>

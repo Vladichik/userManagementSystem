@@ -60,7 +60,7 @@ it takes few seconds to respond. If it takes too much time, refresh the page and
 ============================================
 
 
-**NOTE:** No database or any other local storage mechanisms were not implemented in this project. Any changes made during the work with this application 
-will be lost after refresh.
+**NOTE:** _No database or any other local storage mechanisms were not implemented in this project. Any changes made during the work with this application 
+will be lost after refresh._
 
 
