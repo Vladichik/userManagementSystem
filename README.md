@@ -26,12 +26,13 @@
 
 
 **Implemented advanced features:**
+
 1. Goolgle maps integration
 2. Voice recognition
 
 
 ==========================================
-_** Goolgle maps explanation **_
+**Goolgle maps explanation**
 
 Every user has location data - city name and city lat/lng.
 When we click on some user from the list his location will be displayed on the map.
@@ -39,9 +40,9 @@ When we create new user, we must pick user location (city) from "Pick city" drop
 
 ===========================================
 
-_** Voice recognition explanation **_
+**Voice recognition explanation**
 
-The main purpose of voice recognition module is to find user in the list by first_name.
+**The main purpose of voice recognition module is to find user in the list by first_name.**
 
 When you launch the application for the first time it will ask you to allow browser to use your microphone. Press YES to allow.
 Then to find some user in the list simply say **FIND STEVEN** or any other name that you want to find. Expected behavior - you should see the
